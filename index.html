@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>document.documentElement.classList.add("js")</script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rubik Infotech — Enterprise Cybersecurity &amp; Software Solutions</title>
+  <meta name="description" content="Rubik Infotech delivers enterprise cybersecurity solutions, software licensing, and managed security services to organisations across India. Securing enterprises since 2000." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/animations.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <div class="navbar__inner">
+      <a href="index.html" class="navbar__brand">
+        <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0"  y="0"  width="16" height="16" rx="3" fill="#F07D00"/>
+          <rect x="19" y="0"  width="16" height="16" rx="3" fill="#E30016"/>
+          <rect x="0"  y="19" width="16" height="16" rx="3" fill="#102983"/>
+          <rect x="19" y="19" width="16" height="16" rx="3" fill="#009136"/>
+        </svg>
+        <span class="navbar__logo-text">Rubik Infotech</span>
+      </a>
+      <ul class="navbar__nav" role="list">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="solutions.html">Business Solutions</a></li>
+        <li><a href="licensing.html">Software Licensing</a></li>
+        <li><a href="insights.html">Insights</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <a href="support.html#contact" class="btn btn--red navbar__cta">Connect Now</a>
+      <button class="navbar__hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+<div class="nav-overlay" role="dialog" aria-label="Mobile menu">
+  <button class="nav-overlay__close" aria-label="Close menu">&#x2715;</button>
+  <a href="index.html">Home</a>
+  <a href="solutions.html">Business Solutions</a>
+  <a href="licensing.html">Software Licensing</a>
+  <a href="insights.html">Insights</a>
+  <a href="support.html">Support</a>
+  <a href="about.html">About</a>
+  <a href="support.html#contact" class="btn btn--red">Connect Now</a>
+</div>
+
+<!-- SECTION 1: HERO -->
+<section class="hero hero--dotgrid">
+  <canvas id="network-canvas" class="hero-canvas"></canvas>
+  <div class="container" style="position: relative; z-index: 2; width: 100%;">
+    <div class="hero__inner" style="align-items: center; justify-content: space-between; min-height: calc(100vh - 180px);">
+      <div class="hero-content-panel hero-content-panel--left" data-animate="scale-in">
+        <span class="hero__eyebrow" data-animate="fade-up">Cybersecurity as a Service</span>
+        <h1 class="hero__h1" data-animate="fade-up">Cybersecurity Infrastructure Built for Enterprises That Cannot Afford Failure</h1>
+        <p class="hero__sub" data-animate="fade-up">From cloud to core network to OT environments, Rubik Infotech designs and manages resilient security architectures for modern Indian enterprises.</p>
+        <div class="hero__btns" data-animate="fade-up">
+          <a href="solutions.html" class="btn btn--red">Explore Solutions</a>
+          <a href="support.html#contact" class="btn btn--outline-navy">Talk to an Expert</a>
+        </div>
+        <div class="proof-bar" data-animate="fade-up">
+          <div class="proof-bar__item">
+            <span class="proof-bar__num" data-animate="counter" data-target="850">0+</span>
+            <span class="proof-bar__label">Enterprise Deployments</span>
+          </div>
+          <div class="proof-bar__item">
+            <span class="proof-bar__num" data-animate="counter" data-target="25">0+</span>
+            <span class="proof-bar__label">Years in Business</span>
+          </div>
+          <div class="proof-bar__item">
+            <span class="proof-bar__num" data-animate="counter" data-target="40">0+</span>
+            <span class="proof-bar__label">Technology Partners</span>
+          </div>
+          <div class="proof-bar__item">
+            <span class="proof-bar__num" data-animate="counter" data-target="6">0+</span>
+            <span class="proof-bar__label">Offices Across India</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 25-YEAR ANNIVERSARY LOGO -->
+      <div class="hero__visual" data-animate="fade-left">
+        <div class="anniv-frame">
+          <div class="anniv-frame__ring"></div>
+          <div class="anniv-wrap">
+            <canvas id="anniv-canvas"></canvas>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SHOWCASE STRIP -->
+<section class="showcase-section">
+  <div class="container">
+    <div class="section-header showcase-section__header" data-animate="fade-up">
+      <span class="eyebrow">Our People &amp; Workplace</span>
+      <h2 class="reveal-line" data-animate="reveal-line">The Team Behind Your Security</h2>
+      <p>A glimpse into the people, culture, and environment that power enterprise-grade protection for our clients.</p>
+    </div>
+  </div>
+  <div class="showcase-strip" aria-hidden="true">
+    <!-- Row 1: forward scroll -->
+    <div class="showcase-track showcase-track--fwd">
+      <div class="showcase-img-card"><img src="assets/images/showcase/085A9008.JPG" alt=""></div>
+      <div class="showcase-img-card"><img src="assets/images/showcase/085A9011.JPG" alt=""></div>
+      <div class="showcase-img-card"><img src="assets/images/showcase/085A9022.JPG" alt=""></div>
+      <div class="showcase-img-card"><img src="assets/images/showcase/SEW_9672.JPG" alt=""></div>
+      <div class="showcase-img-card"><img src="assets/images/showcase/085A9026.JPG" alt=""></div>
+      <div class="showcase-img-card"><img src="assets/images/showcase/085A9029.JPG" alt=""></div>
+      <!-- duplicate for seamless loop -->
+      <div class="showcase-img-card"><img src="assets/images/showcase/085A9008.JPG" alt=""></div>
+      <div class="showcase-img-card"><img src="assets/images/showcase/085A9011.JPG" alt=""></div>
+      <div class="showcase-img-card"><img src="assets/images/showcase/085A9022.JPG" alt=""></div>
+      <div class="showcase-img-card"><img src="assets/images/showcase/SEW_9672.JPG" alt=""></div>
+      <div class="showcase-img-card"><img src="assets/images/showcase/085A9026.JPG" alt=""></div>
+      <div class="showcase-img-card"><img src="assets/images/showcase/085A9029.JPG" alt=""></div>
+    </div>
+    <!-- Row 2: reverse scroll -->
+    <div class="showcase-track showcase-track--rev">
+      <div class="showcase-img-card"><img src="assets/images/showcase/085A9012.JPG" alt=""></div>
+      <div class="showcase-img-card"><img src="assets/images/showcase/085A9016.JPG" alt=""></div>
+      <div class="showcase-img-card"><img src="assets/images/showcase/085A9019.JPG" alt=""></div>
+      <div class="showcase-img-card"><img src="assets/images/showcase/085A9021.JPG" alt=""></div>
+      <div class="showcase-img-card"><img src="assets/images/showcase/SEW_9675.JPG" alt=""></div>
+      <div class="showcase-img-card"><img src="assets/images/showcase/SEW_9678.JPG" alt=""></div>
+      <!-- duplicate for seamless loop -->
+      <div class="showcase-img-card"><img src="assets/images/showcase/085A9012.JPG" alt=""></div>
+      <div class="showcase-img-card"><img src="assets/images/showcase/085A9016.JPG" alt=""></div>
+      <div class="showcase-img-card"><img src="assets/images/showcase/085A9019.JPG" alt=""></div>
+      <div class="showcase-img-card"><img src="assets/images/showcase/085A9021.JPG" alt=""></div>
+      <div class="showcase-img-card"><img src="assets/images/showcase/SEW_9675.JPG" alt=""></div>
+      <div class="showcase-img-card"><img src="assets/images/showcase/SEW_9678.JPG" alt=""></div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 2: PAIN POINTS -->
+<section class="section section--alt">
+  <div class="container">
+    <div class="section-header" data-animate="fade-up">
+      <span class="eyebrow">The Challenge</span>
+      <h2 class="reveal-line" data-animate="reveal-line">Why Enterprise Security Fails Without a System</h2>
+      <p>Modern enterprise environments face compounding complexity. Without a structured approach, organisations accumulate gaps faster than they can address them.</p>
+    </div>
+    <div class="pain-grid" data-animate="stagger">
+
+      <!-- Card 1 -->
+      <div class="pain-flip" style="--accent-rgb:227,0,22; --accent:var(--red); --card-img:url('assets/images/pain-cards/multicloud.svg');">
+        <div class="pain-flip__inner">
+          <div class="pain-flip__front">
+            <div class="pain-flip__icon">
+              <svg width="44" height="44" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20 8C14 8 10 13 10 13L8 18H32L30 13C30 13 26 8 20 8Z" stroke="#F07D00" stroke-width="2" stroke-linejoin="round"/>
+                <path d="M6 26C6 26 8 32 20 32C32 32 34 26 34 26" stroke="#F07D00" stroke-width="2" stroke-linecap="round"/>
+                <path d="M8 18C8 18 4 22 4 26" stroke="#F07D00" stroke-width="2" stroke-linecap="round"/>
+                <path d="M32 18C32 18 36 22 36 26" stroke="#F07D00" stroke-width="2" stroke-linecap="round"/>
+                <circle cx="20" cy="22" r="3" stroke="#F07D00" stroke-width="2"/>
+              </svg>
+            </div>
+            <div class="pain-flip__title">Multi-Cloud Blind Spots</div>
+            <div class="pain-flip__hint">Hover to explore</div>
+          </div>
+          <div class="pain-flip__back">
+            <div class="pain-flip__back-title">Multi-Cloud Blind Spots</div>
+            <ul class="pain-flip__list">
+              <li>No unified visibility across AWS, Azure &amp; GCP</li>
+              <li>Unmonitored edges become entry points for attackers</li>
+              <li>Misconfigured cloud policies go undetected</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="pain-flip" style="--accent-rgb:240,125,0; --accent:var(--orange); --card-img:url('assets/images/pain-cards/workforce.svg');">
+        <div class="pain-flip__inner">
+          <div class="pain-flip__front">
+            <div class="pain-flip__icon">
+              <svg width="44" height="44" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="14" cy="14" r="5" stroke="#F07D00" stroke-width="2"/>
+                <circle cx="26" cy="14" r="5" stroke="#F07D00" stroke-width="2"/>
+                <path d="M6 34C6 28 9 24 14 24C17 24 19 25.5 20 27.5" stroke="#F07D00" stroke-width="2" stroke-linecap="round"/>
+                <path d="M34 34C34 28 31 24 26 24C23 24 21 25.5 20 27.5" stroke="#F07D00" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="pain-flip__title">Hybrid Workforce Exposure</div>
+            <div class="pain-flip__hint">Hover to explore</div>
+          </div>
+          <div class="pain-flip__back">
+            <div class="pain-flip__back-title">Hybrid Workforce Exposure</div>
+            <ul class="pain-flip__list">
+              <li>Attack surface extends far beyond the corporate perimeter</li>
+              <li>Endpoint and identity controls must evolve in sync</li>
+              <li>Network policy gaps widen with every remote connection</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="pain-flip" style="--accent-rgb:16,41,131; --accent:var(--navy); --card-img:url('assets/images/pain-cards/endpoint.svg');">
+        <div class="pain-flip__inner">
+          <div class="pain-flip__front">
+            <div class="pain-flip__icon">
+              <svg width="44" height="44" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="6" y="10" width="28" height="18" rx="3" stroke="#F07D00" stroke-width="2"/>
+                <path d="M14 28L12 34" stroke="#F07D00" stroke-width="2" stroke-linecap="round"/>
+                <path d="M26 28L28 34" stroke="#F07D00" stroke-width="2" stroke-linecap="round"/>
+                <path d="M10 34H30" stroke="#F07D00" stroke-width="2" stroke-linecap="round"/>
+                <rect x="10" y="14" width="20" height="10" rx="1" stroke="#F07D00" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <div class="pain-flip__title">Endpoint Sprawl</div>
+            <div class="pain-flip__hint">Hover to explore</div>
+          </div>
+          <div class="pain-flip__back">
+            <div class="pain-flip__back-title">Endpoint Sprawl</div>
+            <ul class="pain-flip__list">
+              <li>BYOD and legacy systems lack consistent security controls</li>
+              <li>No centralised visibility across the device estate</li>
+              <li>Vulnerabilities multiply without structured management</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="pain-flip" style="--accent-rgb:0,145,54; --accent:var(--green); --card-img:url('assets/images/pain-cards/compliance.svg');">
+        <div class="pain-flip__inner">
+          <div class="pain-flip__front">
+            <div class="pain-flip__icon">
+              <svg width="44" height="44" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="8" y="6" width="24" height="28" rx="3" stroke="#F07D00" stroke-width="2"/>
+                <path d="M13 14H27" stroke="#F07D00" stroke-width="2" stroke-linecap="round"/>
+                <path d="M13 20H27" stroke="#F07D00" stroke-width="2" stroke-linecap="round"/>
+                <path d="M13 26H21" stroke="#F07D00" stroke-width="2" stroke-linecap="round"/>
+                <circle cx="29" cy="29" r="6" fill="white" stroke="#F07D00" stroke-width="2"/>
+                <path d="M26 29L28 31L32 27" stroke="#F07D00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="pain-flip__title">Compliance Overload</div>
+            <div class="pain-flip__hint">Hover to explore</div>
+          </div>
+          <div class="pain-flip__back">
+            <div class="pain-flip__back-title">Compliance Overload</div>
+            <ul class="pain-flip__list">
+              <li>Overlapping mandates: ISO 27001, GDPR, DPDP Act</li>
+              <li>Most organisations lack structured compliance programmes</li>
+              <li>Maintaining certification requires continuous effort</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="pain-flip" style="--accent-rgb:227,0,22; --accent:var(--red); --card-img:url('assets/images/pain-cards/ot-it.svg');">
+        <div class="pain-flip__inner">
+          <div class="pain-flip__front">
+            <div class="pain-flip__icon">
+              <svg width="44" height="44" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="12" stroke="#F07D00" stroke-width="2"/>
+                <path d="M20 10V20L26 26" stroke="#F07D00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M6 6L4 4M34 6L36 4M6 34L4 36M34 34L36 36" stroke="#F07D00" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="pain-flip__title">OT-IT Convergence Risk</div>
+            <div class="pain-flip__hint">Hover to explore</div>
+          </div>
+          <div class="pain-flip__back">
+            <div class="pain-flip__back-title">OT-IT Convergence Risk</div>
+            <ul class="pain-flip__list">
+              <li>Industrial systems now exposed via the corporate network</li>
+              <li>Standard IT security tools don't cover OT protocols</li>
+              <li>Convergence creates unmonitored lateral attack paths</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="pain-flip" style="--accent-rgb:240,125,0; --accent:var(--orange); --card-img:url('assets/images/pain-cards/ransomware.svg');">
+        <div class="pain-flip__inner">
+          <div class="pain-flip__front">
+            <div class="pain-flip__icon">
+              <svg width="44" height="44" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="11" y="18" width="18" height="14" rx="2" stroke="#F07D00" stroke-width="2"/>
+                <path d="M15 18V14C15 11.239 17.239 9 20 9C22.761 9 25 11.239 25 14V18" stroke="#F07D00" stroke-width="2" stroke-linecap="round"/>
+                <circle cx="20" cy="25" r="2" fill="#F07D00"/>
+                <path d="M20 27V30" stroke="#F07D00" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="pain-flip__title">Ransomware &amp; BEC Threats</div>
+            <div class="pain-flip__hint">Hover to explore</div>
+          </div>
+          <div class="pain-flip__back">
+            <div class="pain-flip__back-title">Ransomware &amp; BEC Threats</div>
+            <ul class="pain-flip__list">
+              <li>Top financial threat to Indian enterprises today</li>
+              <li>Layered defences and tested response plans are essential</li>
+              <li>Recovery without preparation is costly and uncertain</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 3: SERVICE PILLARS -->
+<section class="section">
+  <div class="container">
+    <div class="section-header" data-animate="fade-up">
+      <span class="eyebrow">What We Do</span>
+      <h2>Three Disciplines. One Partner.</h2>
+      <p>Rubik Infotech brings together cybersecurity architecture, data and identity protection, and software lifecycle management under a single experienced team.</p>
+    </div>
+    <div class="pillar-grid" data-animate="stagger">
+      <div class="pillar-card card-hover card--accent-top-navy">
+        <div class="pillar-card__icon">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M24 6L8 12V24C8 32.837 15.163 40 24 42C32.837 40 40 32.837 40 24V12L24 6Z" stroke="#F07D00" stroke-width="2.5" stroke-linejoin="round"/>
+            <path d="M17 24L22 29L32 19" stroke="#F07D00" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="pillar-card__title">Network &amp; Cloud Security</div>
+        <ul class="pillar-card__items">
+          <li>Next-generation firewall &amp; UTM deployment</li>
+          <li>Cloud security architecture (AWS, Azure, GCP)</li>
+          <li>Network segmentation &amp; microsegmentation</li>
+          <li>IDS/IPS &amp; security operations</li>
+          <li>OT/ICS security for industrial environments</li>
+          <li>Web &amp; email security gateways</li>
+        </ul>
+        <a href="solutions.html" class="pillar-card__link">Explore Network &amp; Cloud Solutions &#x2192;</a>
+      </div>
+      <div class="pillar-card card-hover card--accent-top-red">
+        <div class="pillar-card__icon">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="24" cy="14" rx="14" ry="6" stroke="#F07D00" stroke-width="2.5"/>
+            <path d="M10 14V24C10 27.314 16.268 30 24 30C31.732 30 38 27.314 38 24V14" stroke="#F07D00" stroke-width="2.5"/>
+            <path d="M10 24V34C10 37.314 16.268 40 24 40C31.732 40 38 37.314 38 34V24" stroke="#F07D00" stroke-width="2.5"/>
+            <rect x="20" y="20" width="8" height="8" rx="2" fill="#E30016" opacity="0.6"/>
+          </svg>
+        </div>
+        <div class="pillar-card__title">Data &amp; Application Security</div>
+        <ul class="pillar-card__items">
+          <li>Data loss prevention (DLP) implementation</li>
+          <li>Database activity monitoring (DAM)</li>
+          <li>Application security testing (SAST/DAST)</li>
+          <li>Encryption at rest and in transit</li>
+          <li>Compliance &amp; governance programmes</li>
+          <li>Endpoint detection &amp; response (EDR/XDR)</li>
+        </ul>
+        <a href="solutions.html" class="pillar-card__link">Explore Data &amp; App Security &#x2192;</a>
+      </div>
+      <div class="pillar-card card-hover card--accent-top-orange">
+        <div class="pillar-card__icon">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="24" cy="16" r="8" stroke="#F07D00" stroke-width="2.5"/>
+            <path d="M10 40C10 33.373 16.268 28 24 28C31.732 28 38 33.373 38 40" stroke="#F07D00" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M30 22L34 26L42 18" stroke="#F07D00" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="pillar-card__title">Identity &amp; Software Lifecycle</div>
+        <ul class="pillar-card__items">
+          <li>Identity &amp; access management (IDAM/PAM)</li>
+          <li>Mobile device management (MDM)</li>
+          <li>Microsoft, Google, Adobe licensing</li>
+          <li>Software asset &amp; compliance management</li>
+          <li>Licence procurement &amp; renewal</li>
+          <li>Managed security services (MSSP)</li>
+        </ul>
+        <a href="licensing.html" class="pillar-card__link">Explore Licensing &amp; IDAM &#x2192;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 4: WHY RUBIK -->
+<section class="section section--alt">
+  <div class="container">
+    <div class="why-grid">
+      <div data-animate="fade-left">
+        <span class="eyebrow">Why Rubik Infotech</span>
+        <h2>Architecture-Led. Operationally Focused. Long-Term Oriented.</h2>
+        <ul class="check-list">
+          <li>
+            <svg class="check-list__icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="10" cy="10" r="10" fill="#009136"/>
+              <path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span><strong>25 years of enterprise security experience</strong> — deep understanding of the Indian regulatory and threat landscape.</span>
+          </li>
+          <li>
+            <svg class="check-list__icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="10" cy="10" r="10" fill="#009136"/>
+              <path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span><strong>Multi-vendor certified team</strong> — Fortinet, Palo Alto, CrowdStrike, Sophos, and more, without vendor bias.</span>
+          </li>
+          <li>
+            <svg class="check-list__icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="10" cy="10" r="10" fill="#009136"/>
+              <path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span><strong>Design before deployment</strong> — every engagement begins with architecture and risk assessment, not product sales.</span>
+          </li>
+          <li>
+            <svg class="check-list__icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="10" cy="10" r="10" fill="#009136"/>
+              <path d="M6 10L9 13L14 7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span><strong>Sector-specific expertise</strong> — manufacturing, pharma, BFSI, and professional services across 6 offices in India.</span>
+          </li>
+        </ul>
+        <a href="about.html" class="btn btn--navy">Our Story &amp; Approach</a>
+      </div>
+      <div data-animate="fade-right">
+        <div class="why-image-wrap">
+          <img src="assets/images/analyst-work.jpg" alt="Rubik Infotech cybersecurity analyst" class="why-image" />
+          <div class="why-image-badge">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 2L12.09 7.26L18 8.27L14 12.14L14.91 18L10 15.27L5.09 18L6 12.14L2 8.27L7.91 7.26L10 2Z" fill="#F07D00"/></svg>
+            <span>10+ Industry Awards</span>
+          </div>
+          <div class="why-image-stat">
+            <strong>25+</strong>
+            <span>Years of Excellence</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 5: STATS BANNER -->
+<section class="stats-banner">
+  <div class="container">
+    <div class="stats-banner__grid">
+      <div class="stat-item">
+        <span class="stat-item__num" data-animate="counter" data-target="850">0+</span>
+        <span class="stat-item__label">Enterprise Deployments</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-item__num" data-animate="counter" data-target="25">0+</span>
+        <span class="stat-item__label">Years in Business</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-item__num" data-animate="counter" data-target="40">0+</span>
+        <span class="stat-item__label">Technology Partners</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-item__num" data-animate="counter" data-target="500">0+</span>
+        <span class="stat-item__label">Satisfied Clients</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 6: TESTIMONIALS -->
+<section class="section testi-section">
+  <div class="container">
+    <div class="section-header" data-animate="fade-up">
+      <span class="eyebrow">Client Outcomes</span>
+      <h2>What Enterprises Say About Rubik Infotech</h2>
+      <p>Organisations across India trust Rubik Infotech for security architecture, technology deployment, and ongoing managed services.</p>
+    </div>
+
+    <div class="testi-stage" data-animate="fade-up">
+      <!-- Slide viewport -->
+      <div class="testi-viewport">
+        <div class="testi-track" id="testiTrack">
+
+          <div class="testi-slide">
+            <div class="testi-slide__tag">Availability &amp; Support</div>
+            <div class="testi-slide__mark">&ldquo;</div>
+            <p class="testi-slide__text">Without hesitation I commend Rubik Infotech. They were available when we needed them even at odd times of the day and enabled better tech advantage use. They treated us very professionally, answering even the most elementary questions with clarity and grace.</p>
+            <div class="testi-slide__footer">
+              <div class="testi-slide__stars">★★★★★</div>
+              <div class="testi-slide__author-row">
+                <div class="avatar" style="background:var(--orange);">AN</div>
+                <div>
+                  <div class="testi-slide__name">Amit Nayak</div>
+                  <div class="testi-slide__role">Head IT · Ceramic Company</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-slide">
+            <div class="testi-slide__tag">DLP Solution</div>
+            <div class="testi-slide__mark">&ldquo;</div>
+            <p class="testi-slide__text">Thanks to Rubik Infotech for your great work on our DLP Solution. We appreciated your attentive listening approach and creation of solutions matching our exact vision. The quality of work and attention to detail has been outstanding.</p>
+            <div class="testi-slide__footer">
+              <div class="testi-slide__stars">★★★★★</div>
+              <div class="testi-slide__author-row">
+                <div class="avatar" style="background:var(--red);">MS</div>
+                <div>
+                  <div class="testi-slide__name">Mayur Shah</div>
+                  <div class="testi-slide__role">VP IT · Pharmaceutical Company</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-slide">
+            <div class="testi-slide__tag">Network Recovery</div>
+            <div class="testi-slide__mark">&ldquo;</div>
+            <p class="testi-slide__text">I stand amazed at the level of service, knowledge and support received from the Rubik Infotech team. Their support engineer was very professional and courteous, working swiftly to restore network operations. A real eye opener on what professional IT service looks like.</p>
+            <div class="testi-slide__footer">
+              <div class="testi-slide__stars">★★★★★</div>
+              <div class="testi-slide__author-row">
+                <div class="avatar" style="background:var(--navy);">HS</div>
+                <div>
+                  <div class="testi-slide__name">Harshad Shah</div>
+                  <div class="testi-slide__role">Manager IT · KPO Services</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-slide">
+            <div class="testi-slide__tag">Managed Services</div>
+            <div class="testi-slide__mark">&ldquo;</div>
+            <p class="testi-slide__text">Their support engineer was very professional and courteous, working swiftly to restore our network operations with minimal disruption. The team deployed several successful solutions throughout our organisation with remarkable efficiency.</p>
+            <div class="testi-slide__footer">
+              <div class="testi-slide__stars">★★★★★</div>
+              <div class="testi-slide__author-row">
+                <div class="avatar" style="background:var(--green);">SS</div>
+                <div>
+                  <div class="testi-slide__name">Sunil Shah</div>
+                  <div class="testi-slide__role">Head IT · Clinical Research Organisation</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-slide">
+            <div class="testi-slide__tag">Service Quality</div>
+            <div class="testi-slide__mark">&ldquo;</div>
+            <p class="testi-slide__text">Rubik Infotech's team brings the kind of technical depth and professionalism that is genuinely rare in the Indian IT services market. Their responsiveness and expertise level reflect real commitment to client outcomes.</p>
+            <div class="testi-slide__footer">
+              <div class="testi-slide__stars">★★★★★</div>
+              <div class="testi-slide__author-row">
+                <div class="avatar" style="background:var(--orange);">DP</div>
+                <div>
+                  <div class="testi-slide__name">Dhaval Patel</div>
+                  <div class="testi-slide__role">AGM IT · Power Company</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-slide">
+            <div class="testi-slide__tag">Long-term Partnership</div>
+            <div class="testi-slide__mark">&ldquo;</div>
+            <p class="testi-slide__text">Rubik Infotech continues to be a vendor of difference — reliable, knowledgeable, and always focused on long-term outcomes rather than quick fixes. The quality information access and technical solutions provided have been genuinely insightful.</p>
+            <div class="testi-slide__footer">
+              <div class="testi-slide__stars">★★★★★</div>
+              <div class="testi-slide__author-row">
+                <div class="avatar" style="background:var(--navy);">DS</div>
+                <div>
+                  <div class="testi-slide__name">Devi Sahai Sharma</div>
+                  <div class="testi-slide__role">IT Head · Enterprise Organisation</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /testi-track -->
+      </div><!-- /testi-viewport -->
+
+      <!-- Controls -->
+      <div class="testi-controls">
+        <button class="testi-arr testi-arr--prev" id="testiPrev" aria-label="Previous testimonial">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M12 4L6 10L12 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="testi-dots" id="testiDots">
+          <button class="testi-dot active" data-idx="0" aria-label="Testimonial 1"></button>
+          <button class="testi-dot" data-idx="1" aria-label="Testimonial 2"></button>
+          <button class="testi-dot" data-idx="2" aria-label="Testimonial 3"></button>
+          <button class="testi-dot" data-idx="3" aria-label="Testimonial 4"></button>
+          <button class="testi-dot" data-idx="4" aria-label="Testimonial 5"></button>
+          <button class="testi-dot" data-idx="5" aria-label="Testimonial 6"></button>
+        </div>
+        <button class="testi-arr testi-arr--next" id="testiNext" aria-label="Next testimonial">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M8 4L14 10L8 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- SECTION 7: PARTNERS MARQUEE -->
+<section class="section section--alt" style="padding: 60px 0;">
+  <div class="container">
+    <div class="section-header" data-animate="fade-up" style="margin-bottom: 32px;">
+      <span class="eyebrow">Technology Partners</span>
+      <h2>Certified Across the Industry's Leading Platforms</h2>
+    </div>
+  </div>
+  <div class="marquee-wrapper" style="margin-bottom: 16px;">
+    <div class="marquee-track">
+      <div class="marquee-row">
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/bitdefender.svg" alt="Bitdefender"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/ibm.svg" alt="IBM Security"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/fortinet.svg" alt="Fortinet"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/checkpoint.svg" alt="Check Point"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/crowdstrike.svg" alt="CrowdStrike"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/sophos.svg" alt="Sophos"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/paloaltonetworks.svg" alt="Palo Alto Networks"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/cisco.svg" alt="Cisco"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/sonicwall.svg" alt="SonicWall"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/accops.svg" alt="Accops"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/scalar.svg" alt="Scalar"/></div>
+      </div>
+      <div class="marquee-row" style="margin-left: 16px;">
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/bitdefender.svg" alt="Bitdefender"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/ibm.svg" alt="IBM Security"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/fortinet.svg" alt="Fortinet"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/checkpoint.svg" alt="Check Point"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/crowdstrike.svg" alt="CrowdStrike"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/sophos.svg" alt="Sophos"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/paloaltonetworks.svg" alt="Palo Alto Networks"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/cisco.svg" alt="Cisco"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/sonicwall.svg" alt="SonicWall"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/accops.svg" alt="Accops"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/scalar.svg" alt="Scalar"/></div>
+      </div>
+    </div>
+  </div>
+  <div class="marquee-wrapper">
+    <div class="marquee-track" style="animation-direction: reverse;">
+      <div class="marquee-row">
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/lansweeper.svg" alt="Lansweeper"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/varonis.svg" alt="Varonis"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/sentinelone.svg" alt="SentinelOne"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/arubanetworks.svg" alt="Aruba Networks"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/commvault.svg" alt="Commvault"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/tenable.svg" alt="Tenable"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/trellix.svg" alt="Trellix"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/f5.svg" alt="F5 Networks"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/safesecurity.svg" alt="Safe Security"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/manageengine.svg" alt="ManageEngine"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/kaspersky.svg" alt="Kaspersky"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/proofpoint.svg" alt="Proofpoint"/></div>
+      </div>
+      <div class="marquee-row" style="margin-left: 16px;">
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/lansweeper.svg" alt="Lansweeper"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/varonis.svg" alt="Varonis"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/sentinelone.svg" alt="SentinelOne"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/arubanetworks.svg" alt="Aruba Networks"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/commvault.svg" alt="Commvault"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/tenable.svg" alt="Tenable"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/trellix.svg" alt="Trellix"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/f5.svg" alt="F5 Networks"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/safesecurity.svg" alt="Safe Security"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/manageengine.svg" alt="ManageEngine"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/kaspersky.svg" alt="Kaspersky"/></div>
+        <div class="partner-logo-pill"><img src="assets/images/logos/partners/proofpoint.svg" alt="Proofpoint"/></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 8: TRUSTED CLIENTS -->
+<section class="section" style="padding: 80px 0;">
+  <div class="container">
+    <div class="section-header" data-animate="fade-up">
+      <span class="eyebrow">Trusted By</span>
+      <h2>Protecting India's Most Respected Organisations</h2>
+      <p class="section-sub">From Fortune 500 enterprises to government bodies — our clients trust us with their most critical infrastructure.</p>
+    </div>
+    <div class="clients-grid" data-animate="stagger">
+      <div class="client-logo-card"><img src="assets/images/logos/clients/amul.svg" alt="Amul"/></div>
+      <div class="client-logo-card"><img src="assets/images/logos/clients/isro.svg" alt="ISRO"/></div>
+      <div class="client-logo-card"><img src="assets/images/logos/clients/lt.svg" alt="L&amp;T"/></div>
+      <div class="client-logo-card"><img src="assets/images/logos/clients/nse.svg" alt="NSE"/></div>
+      <div class="client-logo-card"><img src="assets/images/logos/clients/ajantapharma.svg" alt="Ajanta Pharma"/></div>
+      <div class="client-logo-card"><img src="assets/images/logos/clients/adityabirla.svg" alt="Aditya Birla"/></div>
+      <div class="client-logo-card"><img src="assets/images/logos/clients/emcure.svg" alt="Emcure"/></div>
+      <div class="client-logo-card"><img src="assets/images/logos/clients/firstcry.svg" alt="FirstCry"/></div>
+      <div class="client-logo-card"><img src="assets/images/logos/clients/hcg.svg" alt="HCG"/></div>
+      <div class="client-logo-card"><img src="assets/images/logos/clients/claris.svg" alt="Claris"/></div>
+      <div class="client-logo-card"><img src="assets/images/logos/clients/apollotyres.svg" alt="Apollo Tyres"/></div>
+      <div class="client-logo-card"><img src="assets/images/logos/clients/gspc.svg" alt="GSPC"/></div>
+      <div class="client-logo-card"><img src="assets/images/logos/clients/vodafoneindia.svg" alt="Vodafone"/></div>
+      <div class="client-logo-card"><img src="assets/images/logos/clients/torrentgroup.svg" alt="Torrent"/></div>
+      <div class="client-logo-card"><img src="assets/images/logos/clients/ongc.svg" alt="ONGC"/></div>
+      <div class="client-logo-card"><img src="assets/images/logos/clients/adanigroup.svg" alt="Adani"/></div>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 9: CTA BANNER -->
+<section class="cta-banner">
+  <div class="cta-banner__accent">
+    <span style="background: var(--orange);"></span>
+    <span style="background: var(--red);"></span>
+    <span style="background: var(--navy);"></span>
+    <span style="background: var(--green);"></span>
+  </div>
+  <div class="container">
+    <div class="cta-banner__inner" data-animate="scale-in">
+      <span class="eyebrow" style="color: rgba(255,255,255,0.6);">Ready to Get Started?</span>
+      <h2>Build a Security Programme That Works</h2>
+      <p>Talk to a Rubik Infotech specialist about your organisation's security architecture, compliance requirements, or software licensing needs.</p>
+      <div class="cta-banner__btns">
+        <a href="support.html#contact" class="btn btn--red">Request a Consultation</a>
+        <a href="solutions.html" class="btn btn--outline-white">Browse All Solutions</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer" role="contentinfo">
+  <div class="footer__top">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a href="index.html" class="navbar__brand" style="margin-bottom:12px;display:inline-flex;">
+            <svg width="28" height="28" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0"  y="0"  width="16" height="16" rx="3" fill="#F07D00"/>
+              <rect x="19" y="0"  width="16" height="16" rx="3" fill="#E30016"/>
+              <rect x="0"  y="19" width="16" height="16" rx="3" fill="#102983"/>
+              <rect x="19" y="19" width="16" height="16" rx="3" fill="#009136"/>
+            </svg>
+            <span class="navbar__logo-text">Rubik Infotech</span>
+          </a>
+          <p class="footer__brand-tagline">Securing enterprises since 2000.</p>
+          <form class="footer__newsletter">
+            <input type="email" placeholder="Your email address" aria-label="Email for newsletter" />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+        <div class="footer__col">
+          <h4>Solutions</h4>
+          <ul>
+            <li><a href="solutions.html">Cloud Security</a></li>
+            <li><a href="solutions.html">Network Security</a></li>
+            <li><a href="solutions.html">Endpoint Security</a></li>
+            <li><a href="solutions.html">Data Security</a></li>
+            <li><a href="solutions.html">IDAM / MDM</a></li>
+            <li><a href="solutions.html">MSSP</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Licensing</h4>
+          <ul>
+            <li><a href="licensing.html">Microsoft</a></li>
+            <li><a href="licensing.html">Google Workspace</a></li>
+            <li><a href="licensing.html">Adobe CC</a></li>
+            <li><a href="licensing.html">Zoom</a></li>
+            <li><a href="licensing.html">AutoCAD</a></li>
+            <li><a href="licensing.html">TeamViewer</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="insights.html">Insights</a></li>
+            <li><a href="about.html#offices">Offices</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="support.html">Help Center</a></li>
+            <li><a href="support.html#contact">Contact Us</a></li>
+            <li><a href="support.html#faq">FAQ</a></li>
+            <li><a href="support.html">Support Plans</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="footer__partners">
+      <span class="footer__partners-label">Partners:</span>
+      <span class="partner-badge">Fortinet</span>
+      <span class="partner-badge">Palo Alto</span>
+      <span class="partner-badge">CrowdStrike</span>
+      <span class="partner-badge">Sophos</span>
+      <span class="partner-badge">IBM Security</span>
+      <span class="partner-badge">Cisco</span>
+      <span class="partner-badge">Check Point</span>
+    </div>
+    <div class="footer__bottom">
+      <p>&#169; 2025 Rubik Infotech Pvt Ltd. All rights reserved.</p>
+      <div class="footer__social">
+        <a href="#" aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="#" aria-label="Twitter">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/cursor.js"></script>
+<script src="assets/js/animations.js"></script>
+<script src="assets/js/network-animation.js"></script>
+<script src="assets/js/anniversary.js"></script>
+<script src="assets/js/testimonials.js"></script>
+</body>
+</html>

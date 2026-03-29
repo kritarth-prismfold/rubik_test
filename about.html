@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>document.documentElement.classList.add("js")</script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us | Rubik Infotech</title>
+  <meta name="description" content="Rubik Infotech was founded in 2000 with a singular focus: helping Indian enterprises navigate an increasingly complex technology and threat landscape. Learn our story, values, and approach." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/animations.css" />
+</head>
+<body class="page-about">
+
+<!-- NAVBAR -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <div class="navbar__inner">
+      <a href="index.html" class="navbar__brand">
+        <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0"  y="0"  width="16" height="16" rx="3" fill="#F07D00"/>
+          <rect x="19" y="0"  width="16" height="16" rx="3" fill="#E30016"/>
+          <rect x="0"  y="19" width="16" height="16" rx="3" fill="#102983"/>
+          <rect x="19" y="19" width="16" height="16" rx="3" fill="#009136"/>
+        </svg>
+        <span class="navbar__logo-text">Rubik Infotech</span>
+      </a>
+      <ul class="navbar__nav" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="solutions.html">Business Solutions</a></li>
+        <li><a href="licensing.html">Software Licensing</a></li>
+        <li><a href="insights.html">Insights</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+      </ul>
+      <a href="support.html#contact" class="btn btn--red navbar__cta">Connect Now</a>
+      <button class="navbar__hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+<div class="nav-overlay" role="dialog" aria-label="Mobile menu">
+  <button class="nav-overlay__close" aria-label="Close menu">&#x2715;</button>
+  <a href="index.html">Home</a>
+  <a href="solutions.html">Business Solutions</a>
+  <a href="licensing.html">Software Licensing</a>
+  <a href="insights.html">Insights</a>
+  <a href="support.html">Support</a>
+  <a href="about.html">About</a>
+  <a href="support.html#contact" class="btn btn--red">Connect Now</a>
+</div>
+
+<!-- HERO -->
+<section class="hero hero--inner">
+  <canvas id="hero-bg-canvas" class="hero-canvas" data-anim="orbit"></canvas>
+  <div class="container" style="position: relative; z-index: 2; width: 100%;">
+    <div class="hero__inner" style="min-height: 65vh; padding: 80px 0; align-items: center; gap: 64px;">
+      <div class="hero__content" data-animate="fade-left">
+        <span class="hero__eyebrow">Est. 2000</span>
+        <h1 class="hero__h1">Securing Enterprises Since 2000</h1>
+        <p class="hero__sub" style="margin-bottom: 32px;">Rubik Infotech was founded in 2000 with a singular focus: helping Indian enterprises navigate an increasingly complex technology and threat landscape. Over 25 years, we have grown from a regional IT partner into a specialist cybersecurity and software solutions provider trusted by organisations across manufacturing, pharma, BFSI, and professional services.</p>
+        <div class="hero__btns">
+          <a href="support.html#contact" class="btn btn--red">Work With Us</a>
+          <a href="#offices" class="btn btn--outline-navy">Our Offices</a>
+        </div>
+      </div>
+      <div class="hero__visual" data-animate="fade-right">
+        <div class="about-hero-visual">
+          <div class="about-hero-square about-hero-square--navy">
+            <div class="about-hero-square-inner">
+              <span class="about-hero-square__num">25+</span>
+              <div class="about-hero-square__label">Years in business</div>
+            </div>
+          </div>
+          <div class="about-hero-square about-hero-square--red">
+            <div class="about-hero-square-inner">
+              <span class="about-hero-square__num">850+</span>
+              <div class="about-hero-square__label">Deployments</div>
+            </div>
+          </div>
+          <div class="about-hero-square about-hero-square--orange">
+            <div class="about-hero-square-inner">
+              <span class="about-hero-square__num">6</span>
+              <div class="about-hero-square__label">Offices across India</div>
+            </div>
+          </div>
+          <div class="about-hero-square about-hero-square--green">
+            <div class="about-hero-square-inner">
+              <span class="about-hero-square__num">40+</span>
+              <div class="about-hero-square__label">Tech partners</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STORY SECTION -->
+<section class="section">
+  <div class="container">
+    <div class="about-two-col">
+      <div data-animate="fade-left">
+        <span class="eyebrow">What We Do</span>
+        <h2>A Specialist Cybersecurity and Software Solutions Partner</h2>
+        <p style="margin-top: 16px; font-size: 16px; line-height: 1.7; margin-bottom: 16px;">Rubik Infotech delivers structured cybersecurity solutions and software licensing services to mid-market and enterprise organisations across India. Our work spans security architecture design, technology deployment, managed services, and software lifecycle management — all delivered by a team with deep vendor certifications and operational experience.</p>
+        <p style="font-size: 16px; line-height: 1.7; margin-bottom: 24px;">We work across the complete security lifecycle — from initial risk assessments and architecture design through technology deployment, user training, and ongoing managed operations. Our software licensing practice adds a complementary dimension, managing the procurement, activation, compliance, and renewal of enterprise software portfolios for the same organisations we serve on security.</p>
+        <p style="font-size: 16px; line-height: 1.7;">This breadth of capability — security architecture, operational technology, identity management, and software lifecycle — makes Rubik Infotech a genuinely integrated partner for enterprise IT and security leaders.</p>
+      </div>
+      <div data-animate="fade-right">
+        <div class="about-image-wrap">
+          <img src="assets/images/noc-team.jpg" alt="Rubik Infotech network operations centre" class="about-company-img" />
+          <div class="about-image-stat">
+            <div class="about-image-stat__item">
+              <strong>25+</strong><span>Years in business</span>
+            </div>
+            <div class="about-image-stat__item">
+              <strong>500+</strong><span>Clients served</span>
+            </div>
+            <div class="about-image-stat__item">
+              <strong>13</strong><span>Security domains</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRINCIPLES SECTION -->
+<section class="section section--alt">
+  <div class="container">
+    <div class="section-header" data-animate="fade-up">
+      <span class="eyebrow">Our Approach</span>
+      <h2>Four Principles That Define Our Work</h2>
+    </div>
+    <div class="principles-grid" data-animate="stagger">
+      <div class="principle-card card-hover">
+        <div class="principle-card__accent" style="background: var(--navy);"></div>
+        <h3>Architecture-Led</h3>
+        <p>We design before we deploy. Every engagement begins with understanding your environment, risk profile, and operational requirements. Technology selection follows architecture, not the reverse.</p>
+      </div>
+      <div class="principle-card card-hover">
+        <div class="principle-card__accent" style="background: var(--red);"></div>
+        <h3>Compliance-Aware</h3>
+        <p>We build programmes that satisfy audit requirements — not as an afterthought, but as a design principle. ISO 27001, GDPR, DPDP Act, and sector mandates are built into our frameworks from day one.</p>
+      </div>
+      <div class="principle-card card-hover">
+        <div class="principle-card__accent" style="background: var(--orange);"></div>
+        <h3>Operationally Focused</h3>
+        <p>Security must function within the operational realities of your business. We design for resilience, not just compliance — ensuring security controls don't impede the business processes they're meant to protect.</p>
+      </div>
+      <div class="principle-card card-hover">
+        <div class="principle-card__accent" style="background: var(--green);"></div>
+        <h3>Long-Term Oriented</h3>
+        <p>Our partnerships are measured in years, not projects. We commit to the ongoing health of your security posture — providing managed services, regular reviews, and evolving our recommendations as your environment changes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMMITMENT SECTION -->
+<section class="commitment-section">
+  <img src="assets/images/partnership-bright.jpg" alt="" role="presentation" class="commitment-section__bg" />
+  <div class="container">
+    <div data-animate="scale-in">
+      <span class="eyebrow" style="color: rgba(255,255,255,0.6);">Our Belief</span>
+      <blockquote>"Security is not a one-time implementation. It is a continuous responsibility."</blockquote>
+      <p>Rubik Infotech was built on the belief that enterprise security must be designed as a system — not assembled from disconnected products. Our team brings together vendor expertise, architectural discipline, and operational awareness to build programmes that protect and evolve with your organisation. We measure success not by the number of products deployed, but by the measurable improvement in your security posture over time.</p>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERTISE SECTION -->
+<section class="section section--alt">
+  <div class="container">
+    <div class="section-header" data-animate="fade-up">
+      <span class="eyebrow">Core Expertise</span>
+      <h2>Six Domains. Deep Expertise.</h2>
+      <p>Rubik Infotech's team holds vendor certifications across the major platforms in each practice area, backed by 25 years of real-world deployment experience.</p>
+    </div>
+    <div class="expertise-grid" data-animate="stagger">
+      <div class="expertise-card card-hover">
+        <div class="expertise-card__icon">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M24 6L8 12V24C8 32.837 15.163 40 24 42C32.837 40 40 32.837 40 24V12L24 6Z" stroke="#F07D00" stroke-width="2.5" stroke-linejoin="round"/>
+            <path d="M17 24L22 29L32 19" stroke="#F07D00" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="expertise-card__title">Cybersecurity Architecture</div>
+        <div class="expertise-card__desc">Design-first approach to enterprise security infrastructure, from network segmentation to zero-trust frameworks.</div>
+      </div>
+      <div class="expertise-card card-hover">
+        <div class="expertise-card__icon">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M34 22H36C39.314 22 42 19.314 42 16C42 12.686 39.314 10 36 10C35.701 10 35.406 10.019 35.116 10.055C34.134 6.68 31.057 4 27.333 4C22.398 4 18.4 8.029 18.4 12.999C18.4 13.116 18.403 13.232 18.407 13.348C16.929 12.56 15.16 12.372 13.333 12.667C10.048 13.222 7.5 16.094 7.5 19.75C7.5 23.478 10.022 26.5 13.167 26.5H34V22Z" stroke="#F07D00" stroke-width="2.5" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="expertise-card__title">Cloud Security</div>
+        <div class="expertise-card__desc">Multi-cloud security frameworks across AWS, Azure, and GCP, with native tooling and third-party controls.</div>
+      </div>
+      <div class="expertise-card card-hover">
+        <div class="expertise-card__icon">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="24" cy="24" r="8" stroke="#F07D00" stroke-width="2.5"/>
+            <path d="M24 6V10M24 38V42M6 24H10M38 24H42" stroke="#F07D00" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M10.93 10.93L13.76 13.76M34.24 34.24L37.07 37.07M10.93 37.07L13.76 34.24M34.24 13.76L37.07 10.93" stroke="#F07D00" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="expertise-card__title">OT / ICS Security</div>
+        <div class="expertise-card__desc">Specialist protection for operational technology environments including SCADA, ICS, and industrial control networks.</div>
+      </div>
+      <div class="expertise-card card-hover">
+        <div class="expertise-card__icon">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="10" y="6" width="28" height="36" rx="4" stroke="#F07D00" stroke-width="2.5"/>
+            <path d="M16 18H32" stroke="#F07D00" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M16 25H32" stroke="#F07D00" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M16 32H24" stroke="#F07D00" stroke-width="2.5" stroke-linecap="round"/>
+            <circle cx="35" cy="35" r="8" fill="white" stroke="#F07D00" stroke-width="2.5"/>
+            <path d="M32 35L34 37L38 33" stroke="#F07D00" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="expertise-card__title">Compliance &amp; Governance</div>
+        <div class="expertise-card__desc">Audit-ready programmes for ISO 27001, GDPR, DPDP Act, and sector mandates including Schedule M and RBI guidelines.</div>
+      </div>
+      <div class="expertise-card card-hover">
+        <div class="expertise-card__icon">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="24" cy="24" r="16" stroke="#F07D00" stroke-width="2.5"/>
+            <ellipse cx="24" cy="24" rx="7" ry="16" stroke="#F07D00" stroke-width="2"/>
+            <path d="M8 24H40" stroke="#F07D00" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="24" cy="24" r="3" fill="#F07D00"/>
+          </svg>
+        </div>
+        <div class="expertise-card__title">Managed Security</div>
+        <div class="expertise-card__desc">24&#x00D7;7 monitoring, detection, and response services delivered under structured managed service agreements.</div>
+      </div>
+      <div class="expertise-card card-hover">
+        <div class="expertise-card__icon">
+          <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="24" cy="14" rx="14" ry="6" stroke="#F07D00" stroke-width="2.5"/>
+            <path d="M10 14V24C10 27.314 16.268 30 24 30C31.732 30 38 27.314 38 24V14" stroke="#F07D00" stroke-width="2.5"/>
+            <path d="M10 24V34C10 37.314 16.268 40 24 40C31.732 40 38 37.314 38 34V24" stroke="#F07D00" stroke-width="2.5"/>
+          </svg>
+        </div>
+        <div class="expertise-card__title">Software Lifecycle</div>
+        <div class="expertise-card__desc">End-to-end software licensing and asset management across Microsoft, Google, Adobe, and 10+ enterprise platforms.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OFFICES SECTION -->
+<section class="section" id="offices">
+  <div class="container">
+    <div class="section-header" data-animate="fade-up">
+      <span class="eyebrow">Presence</span>
+      <h2>Six Offices. Pan-India Coverage.</h2>
+      <p>With offices in Ahmedabad, Pune, Mumbai, Baroda, Surat, and Udaipur, Rubik Infotech provides on-site support and engagement capabilities across western India's key business centres.</p>
+    </div>
+    <div class="office-grid" data-animate="stagger">
+      <div class="office-card card-hover">
+        <div style="flex-shrink: 0;">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14 3C9.582 3 6 6.582 6 11C6 17.5 14 25 14 25C14 25 22 17.5 22 11C22 6.582 18.418 3 14 3Z" stroke="#F07D00" stroke-width="2"/>
+            <circle cx="14" cy="11" r="3" stroke="#F07D00" stroke-width="2"/>
+          </svg>
+        </div>
+        <div>
+          <div class="office-card__city">Ahmedabad</div>
+          <div class="office-card__tag">Headquarters &middot; 914, Palak Prime, Iskcon Ambli Road</div>
+        </div>
+      </div>
+      <div class="office-card card-hover">
+        <div style="flex-shrink: 0;">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14 3C9.582 3 6 6.582 6 11C6 17.5 14 25 14 25C14 25 22 17.5 22 11C22 6.582 18.418 3 14 3Z" stroke="#F07D00" stroke-width="2"/>
+            <circle cx="14" cy="11" r="3" stroke="#F07D00" stroke-width="2"/>
+          </svg>
+        </div>
+        <div>
+          <div class="office-card__city">Pune</div>
+          <div class="office-card__tag">Regional Office &middot; Maharashtra</div>
+        </div>
+      </div>
+      <div class="office-card card-hover">
+        <div style="flex-shrink: 0;">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14 3C9.582 3 6 6.582 6 11C6 17.5 14 25 14 25C14 25 22 17.5 22 11C22 6.582 18.418 3 14 3Z" stroke="#F07D00" stroke-width="2"/>
+            <circle cx="14" cy="11" r="3" stroke="#F07D00" stroke-width="2"/>
+          </svg>
+        </div>
+        <div>
+          <div class="office-card__city">Mumbai</div>
+          <div class="office-card__tag">Regional Office &middot; Maharashtra</div>
+        </div>
+      </div>
+      <div class="office-card card-hover">
+        <div style="flex-shrink: 0;">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14 3C9.582 3 6 6.582 6 11C6 17.5 14 25 14 25C14 25 22 17.5 22 11C22 6.582 18.418 3 14 3Z" stroke="#F07D00" stroke-width="2"/>
+            <circle cx="14" cy="11" r="3" stroke="#F07D00" stroke-width="2"/>
+          </svg>
+        </div>
+        <div>
+          <div class="office-card__city">Baroda (Vadodara)</div>
+          <div class="office-card__tag">Regional Office &middot; Gujarat</div>
+        </div>
+      </div>
+      <div class="office-card card-hover">
+        <div style="flex-shrink: 0;">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14 3C9.582 3 6 6.582 6 11C6 17.5 14 25 14 25C14 25 22 17.5 22 11C22 6.582 18.418 3 14 3Z" stroke="#F07D00" stroke-width="2"/>
+            <circle cx="14" cy="11" r="3" stroke="#F07D00" stroke-width="2"/>
+          </svg>
+        </div>
+        <div>
+          <div class="office-card__city">Surat</div>
+          <div class="office-card__tag">Regional Office &middot; Gujarat</div>
+        </div>
+      </div>
+      <div class="office-card card-hover">
+        <div style="flex-shrink: 0;">
+          <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14 3C9.582 3 6 6.582 6 11C6 17.5 14 25 14 25C14 25 22 17.5 22 11C22 6.582 18.418 3 14 3Z" stroke="#F07D00" stroke-width="2"/>
+            <circle cx="14" cy="11" r="3" stroke="#F07D00" stroke-width="2"/>
+          </svg>
+        </div>
+        <div>
+          <div class="office-card__city">Udaipur</div>
+          <div class="office-card__tag">Regional Office &middot; Rajasthan</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AWARDS SECTION -->
+<section class="section section--alt awards-section">
+  <div class="container">
+    <div class="section-header" data-animate="fade-up">
+      <span class="eyebrow">Recognition</span>
+      <h2>Recognition</h2>
+      <p>Rubik Infotech has been recognised by industry bodies and technology vendors for outstanding service delivery, channel performance, and enterprise security expertise.</p>
+    </div>
+  </div>
+  <!-- Full-width infinite marquee — duplicated set for seamless loop -->
+  <div class="awards-marquee" aria-label="Awards and recognition">
+    <div class="awards-marquee__track">
+      <!-- Set 1 -->
+      <div class="award-img-card">
+        <img src="assets/images/award-sme.svg" alt="SME Channel Award" />
+        <span>SME Channel Award</span>
+      </div>
+      <div class="award-img-card">
+        <img src="assets/images/award-sophos.svg" alt="Sophos Outstanding Business Performance" />
+        <span>Sophos Outstanding Partner</span>
+      </div>
+      <div class="award-img-card">
+        <img src="assets/images/award-trendmicro.svg" alt="Trend Micro Ace Ninja" />
+        <span>Trend Micro Ace Ninja</span>
+      </div>
+      <div class="award-img-card">
+        <img src="assets/images/award-sonicwall.svg" alt="Sonicwall Emerging Partner" />
+        <span>Sonicwall Emerging Partner</span>
+      </div>
+      <div class="award-img-card">
+        <img src="assets/images/award-samman.svg" alt="Samman Patra GST Compliance" />
+        <span>Samman Patra — GST Compliance</span>
+      </div>
+      <div class="award-img-card">
+        <img src="assets/images/award-channelworld.svg" alt="Channel World Futuristic 100" />
+        <span>Channel World — Futuristic 100</span>
+      </div>
+      <div class="award-img-card">
+        <img src="assets/images/award-hcl.svg" alt="HCL Partner Choice" />
+        <span>HCL Partner Choice</span>
+      </div>
+      <div class="award-img-card">
+        <img src="assets/images/award-digitaledge.svg" alt="Digital Edge Award" />
+        <span>Digital Edge</span>
+      </div>
+      <div class="award-img-card">
+        <img src="assets/images/award-trendmicro2.svg" alt="Trend Micro Cloud Sec 2020" />
+        <span>Trend Micro Cloud Sec 2020</span>
+      </div>
+      <div class="award-img-card">
+        <img src="assets/images/award-crn.svg" alt="CRN Excellence Enterprise Security" />
+        <span>CRN Excellence — Enterprise Security</span>
+      </div>
+      <!-- Set 2 — duplicate for seamless loop -->
+      <div class="award-img-card" aria-hidden="true">
+        <img src="assets/images/award-sme.svg" alt="" />
+        <span>SME Channel Award</span>
+      </div>
+      <div class="award-img-card" aria-hidden="true">
+        <img src="assets/images/award-sophos.svg" alt="" />
+        <span>Sophos Outstanding Partner</span>
+      </div>
+      <div class="award-img-card" aria-hidden="true">
+        <img src="assets/images/award-trendmicro.svg" alt="" />
+        <span>Trend Micro Ace Ninja</span>
+      </div>
+      <div class="award-img-card" aria-hidden="true">
+        <img src="assets/images/award-sonicwall.svg" alt="" />
+        <span>Sonicwall Emerging Partner</span>
+      </div>
+      <div class="award-img-card" aria-hidden="true">
+        <img src="assets/images/award-samman.svg" alt="" />
+        <span>Samman Patra — GST Compliance</span>
+      </div>
+      <div class="award-img-card" aria-hidden="true">
+        <img src="assets/images/award-channelworld.svg" alt="" />
+        <span>Channel World — Futuristic 100</span>
+      </div>
+      <div class="award-img-card" aria-hidden="true">
+        <img src="assets/images/award-hcl.svg" alt="" />
+        <span>HCL Partner Choice</span>
+      </div>
+      <div class="award-img-card" aria-hidden="true">
+        <img src="assets/images/award-digitaledge.svg" alt="" />
+        <span>Digital Edge</span>
+      </div>
+      <div class="award-img-card" aria-hidden="true">
+        <img src="assets/images/award-trendmicro2.svg" alt="" />
+        <span>Trend Micro Cloud Sec 2020</span>
+      </div>
+      <div class="award-img-card" aria-hidden="true">
+        <img src="assets/images/award-crn.svg" alt="" />
+        <span>CRN Excellence — Enterprise Security</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<section class="cta-banner">
+  <div class="cta-banner__accent">
+    <span style="background: var(--orange);"></span>
+    <span style="background: var(--red);"></span>
+    <span style="background: var(--navy);"></span>
+    <span style="background: var(--green);"></span>
+  </div>
+  <div class="container">
+    <div class="cta-banner__inner" data-animate="scale-in">
+      <span class="eyebrow" style="color: rgba(255,255,255,0.6);">Join Our Clients</span>
+      <h2>Partner With a Team That Prioritises Your Security</h2>
+      <p>Contact Rubik Infotech to discuss your organisation's requirements — whether you need a security architecture review, a managed service, or a licensing partner.</p>
+      <div class="cta-banner__btns">
+        <a href="support.html#contact" class="btn btn--red">Start a Conversation</a>
+        <a href="solutions.html" class="btn btn--outline-white">View All Solutions</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer" role="contentinfo">
+  <div class="footer__top">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a href="index.html" class="navbar__brand" style="margin-bottom:12px;display:inline-flex;">
+            <svg width="28" height="28" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0"  y="0"  width="16" height="16" rx="3" fill="#F07D00"/>
+              <rect x="19" y="0"  width="16" height="16" rx="3" fill="#E30016"/>
+              <rect x="0"  y="19" width="16" height="16" rx="3" fill="#102983"/>
+              <rect x="19" y="19" width="16" height="16" rx="3" fill="#009136"/>
+            </svg>
+            <span class="navbar__logo-text">Rubik Infotech</span>
+          </a>
+          <p class="footer__brand-tagline">Securing enterprises since 2000.</p>
+          <form class="footer__newsletter">
+            <input type="email" placeholder="Your email address" aria-label="Email for newsletter" />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+        <div class="footer__col">
+          <h4>Solutions</h4>
+          <ul>
+            <li><a href="solutions.html">Cloud Security</a></li>
+            <li><a href="solutions.html">Network Security</a></li>
+            <li><a href="solutions.html">Endpoint Security</a></li>
+            <li><a href="solutions.html">Data Security</a></li>
+            <li><a href="solutions.html">IDAM / MDM</a></li>
+            <li><a href="solutions.html">MSSP</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Licensing</h4>
+          <ul>
+            <li><a href="licensing.html">Microsoft</a></li>
+            <li><a href="licensing.html">Google Workspace</a></li>
+            <li><a href="licensing.html">Adobe CC</a></li>
+            <li><a href="licensing.html">Zoom</a></li>
+            <li><a href="licensing.html">AutoCAD</a></li>
+            <li><a href="licensing.html">TeamViewer</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="insights.html">Insights</a></li>
+            <li><a href="about.html#offices">Offices</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="support.html">Help Center</a></li>
+            <li><a href="support.html#contact">Contact Us</a></li>
+            <li><a href="support.html#faq">FAQ</a></li>
+            <li><a href="support.html">Support Plans</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="footer__partners">
+      <span class="footer__partners-label">Partners:</span>
+      <span class="partner-badge">Fortinet</span>
+      <span class="partner-badge">Palo Alto</span>
+      <span class="partner-badge">CrowdStrike</span>
+      <span class="partner-badge">Sophos</span>
+      <span class="partner-badge">IBM Security</span>
+      <span class="partner-badge">Cisco</span>
+      <span class="partner-badge">Check Point</span>
+    </div>
+    <div class="footer__bottom">
+      <p>&#169; 2025 Rubik Infotech Pvt Ltd. All rights reserved.</p>
+      <div class="footer__social">
+        <a href="#" aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="#" aria-label="Twitter">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/cursor.js"></script>
+<script src="assets/js/animations.js"></script>
+<script src="assets/js/hero-bg.js"></script>
+</body>
+</html>

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>document.documentElement.classList.add("js")</script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Insights &amp; Case Studies | Rubik Infotech</title>
+  <meta name="description" content="Real enterprise security and technology case studies from Rubik Infotech. Read how we solve complex security and software challenges for organisations across India." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/animations.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <div class="navbar__inner">
+      <a href="index.html" class="navbar__brand">
+        <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0"  y="0"  width="16" height="16" rx="3" fill="#F07D00"/>
+          <rect x="19" y="0"  width="16" height="16" rx="3" fill="#E30016"/>
+          <rect x="0"  y="19" width="16" height="16" rx="3" fill="#102983"/>
+          <rect x="19" y="19" width="16" height="16" rx="3" fill="#009136"/>
+        </svg>
+        <span class="navbar__logo-text">Rubik Infotech</span>
+      </a>
+      <ul class="navbar__nav" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="solutions.html">Business Solutions</a></li>
+        <li><a href="licensing.html">Software Licensing</a></li>
+        <li><a href="insights.html" class="active">Insights</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <a href="support.html#contact" class="btn btn--red navbar__cta">Connect Now</a>
+      <button class="navbar__hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+<div class="nav-overlay" role="dialog" aria-label="Mobile menu">
+  <button class="nav-overlay__close" aria-label="Close menu">&#x2715;</button>
+  <a href="index.html">Home</a>
+  <a href="solutions.html">Business Solutions</a>
+  <a href="licensing.html">Software Licensing</a>
+  <a href="insights.html">Insights</a>
+  <a href="support.html">Support</a>
+  <a href="about.html">About</a>
+  <a href="support.html#contact" class="btn btn--red">Connect Now</a>
+</div>
+
+<!-- HERO -->
+<section class="hero hero--inner">
+  <canvas id="hero-bg-canvas" class="hero-canvas" data-anim="bars"></canvas>
+  <div class="container" style="position: relative; z-index: 2; width: 100%;">
+    <div class="hero__inner hero--centered" style="flex-direction: column; align-items: center; justify-content: center; min-height: 65vh; padding: 80px 0;">
+      <div class="hero-content-panel" data-animate="scale-in">
+        <span class="hero__eyebrow">Insights &amp; Case Studies</span>
+        <h1 class="hero__h1" style="max-width: 700px; margin: 0 auto 20px;">Insights &amp; Case Studies</h1>
+        <p class="hero__sub hero__sub--centered" style="margin: 0 auto 28px;">Real deployments. Measurable outcomes. How Rubik Infotech solves enterprise security challenges across industries.</p>
+        <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;">
+          <span class="tag">Email Migration</span>
+          <span class="tag">Workforce Analytics</span>
+          <span class="tag">Managed Security</span>
+          <span class="tag">Compliance</span>
+          <span class="tag">Cloud Security</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CASE STUDIES -->
+<section class="section">
+  <div class="container">
+
+    <!-- CASE STUDY 1 -->
+    <article class="case-study card-hover" data-animate="fade-up">
+      <div class="case-study__header">
+        <div class="case-study__num" style="background: #F07D00;">1</div>
+        <div>
+          <div class="case-study__cat">Email Migration</div>
+          <div style="font-size: 13px; color: var(--muted); margin-top: 2px;">Manufacturing &middot; 600 Users &middot; Ahmedabad</div>
+        </div>
+      </div>
+      <h2>Zero-Downtime Email Migration for a Mid-Market Manufacturing Firm</h2>
+      <p style="font-size: 16px; color: var(--text); line-height: 1.7; margin-bottom: 8px;"><strong>The Challenge:</strong> A 600-user manufacturing organisation was operating a legacy on-premise email infrastructure with recurring performance issues, storage limitations, and no disaster recovery capability. The organisation required a migration to Microsoft 365 with zero data loss and minimal operational disruption.</p>
+      <div class="case-study__metrics">
+        <span class="metric-pill">Zero Data Loss</span>
+        <span class="metric-pill">Under 2 Hours Downtime</span>
+        <span class="metric-pill">99.99% Post-Migration Uptime</span>
+      </div>
+      <button class="case-study__expand">Read Full Case Study &#x2193;</button>
+      <div class="case-study__body">
+        <div class="case-study__body-inner">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px;">
+            <div>
+              <h3 style="font-size: 17px; margin-bottom: 12px; color: var(--navy);">What We Did</h3>
+              <p style="font-size: 15px; line-height: 1.7; margin-bottom: 16px;">Rubik Infotech conducted a pre-migration audit of the existing mail environment, mapped mailbox dependencies, and designed a phased migration plan using Microsoft's hybrid configuration. The migration was executed over a weekend window with real-time monitoring and a rollback protocol in place.</p>
+              <p style="font-size: 15px; line-height: 1.7;">Key steps included a pilot migration of 50 users to validate the process, a full dependency audit identifying shared calendars and distribution groups, and a communications plan for all 600 users that minimised confusion during the cutover period.</p>
+            </div>
+            <div>
+              <h3 style="font-size: 17px; margin-bottom: 12px; color: var(--navy);">Outcome</h3>
+              <p style="font-size: 15px; line-height: 1.7; margin-bottom: 16px;">The migration completed with zero data loss and under 2 hours of total downtime. The organisation gained cloud-native email, integrated Microsoft Teams and OneDrive access, and a fully documented recovery playbook for future resilience.</p>
+              <p style="font-size: 15px; line-height: 1.7;">Post-migration, the IT team reported a significant reduction in email-related support tickets, and the organisation was able to retire two on-premise servers, reducing infrastructure costs by approximately 18% annually.</p>
+              <div style="margin-top: 20px; display: flex; gap: 12px; flex-wrap: wrap;">
+                <div style="background: var(--bg-alt); border-radius: 10px; padding: 16px 20px; text-align: center; border: 1px solid var(--border);">
+                  <div style="font-size: 28px; font-weight: 700; color: var(--navy);">0</div>
+                  <div style="font-size: 12px; color: var(--muted);">Emails Lost</div>
+                </div>
+                <div style="background: var(--bg-alt); border-radius: 10px; padding: 16px 20px; text-align: center; border: 1px solid var(--border);">
+                  <div style="font-size: 28px; font-weight: 700; color: var(--navy);">&lt;2h</div>
+                  <div style="font-size: 12px; color: var(--muted);">Total Downtime</div>
+                </div>
+                <div style="background: var(--bg-alt); border-radius: 10px; padding: 16px 20px; text-align: center; border: 1px solid var(--border);">
+                  <div style="font-size: 28px; font-weight: 700; color: var(--navy);">18%</div>
+                  <div style="font-size: 12px; color: var(--muted);">Infrastructure Cost Reduction</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="margin-top: 32px; padding: 24px; background: var(--bg-alt); border-radius: 10px; border-left: 4px solid var(--orange);">
+            <p style="font-size: 15px; color: var(--text); font-style: italic; line-height: 1.7;">"Rubik Infotech planned every detail of the migration. We expected the weekend to be stressful — it wasn't. Their team monitored every step and the handover on Monday morning was seamless. Our staff barely noticed the change except that everything was faster."</p>
+            <p style="font-size: 13px; color: var(--muted); margin-top: 8px; font-style: normal;">— IT Manager, Manufacturing Firm, Ahmedabad</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- CASE STUDY 2 -->
+    <article class="case-study card-hover" data-animate="fade-up">
+      <div class="case-study__header">
+        <div class="case-study__num" style="background: #E30016;">2</div>
+        <div>
+          <div class="case-study__cat">Workforce Analytics &amp; Licence Optimisation</div>
+          <div style="font-size: 13px; color: var(--muted); margin-top: 2px;">KPO Services &middot; 1,200 Seats &middot; Pune</div>
+        </div>
+      </div>
+      <h2>Workforce Productivity and Licence Optimisation for a KPO Services Provider</h2>
+      <p style="font-size: 16px; color: var(--text); line-height: 1.7; margin-bottom: 8px;"><strong>The Challenge:</strong> A KPO with 1,200 seats was running multiple overlapping productivity tools — Microsoft 365, Google Workspace, and several independent SaaS subscriptions — without a unified view of utilisation or spend. Licence costs were escalating without measurable productivity return.</p>
+      <div class="case-study__metrics">
+        <span class="metric-pill">340 Licences Recovered</span>
+        <span class="metric-pill">28% Cost Reduction</span>
+        <span class="metric-pill">Full Compliance Achieved</span>
+      </div>
+      <button class="case-study__expand">Read Full Case Study &#x2193;</button>
+      <div class="case-study__body">
+        <div class="case-study__body-inner">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px;">
+            <div>
+              <h3 style="font-size: 17px; margin-bottom: 12px; color: var(--navy);">What We Did</h3>
+              <p style="font-size: 15px; line-height: 1.7; margin-bottom: 16px;">Rubik Infotech conducted a full software asset inventory and utilisation audit across all deployed tools. Using telemetry data and active directory exports, we identified 340 redundant licences assigned to inactive or departed users, and a further 180 licences where users had duplicate access across two platforms.</p>
+              <p style="font-size: 15px; line-height: 1.7;">We then designed a consolidated productivity stack — migrating the organisation to a single Microsoft 365 Enterprise deployment — and implemented a licence governance framework with monthly reporting, onboarding automation, and a 30-day licence reclamation policy for inactive accounts.</p>
+            </div>
+            <div>
+              <h3 style="font-size: 17px; margin-bottom: 12px; color: var(--navy);">Outcome</h3>
+              <p style="font-size: 15px; line-height: 1.7; margin-bottom: 16px;">The organisation reduced its annual software spend by 28% and achieved full licence compliance — eliminating exposure to vendor audit risk. The consolidated Microsoft 365 environment improved IT manageability and provided data-driven insights for future headcount planning.</p>
+              <p style="font-size: 15px; line-height: 1.7;">The licence governance framework continues to deliver value — the organisation reports that IT overhead related to software provisioning has reduced by approximately 40% since the new onboarding and offboarding processes were implemented.</p>
+              <div style="margin-top: 20px; display: flex; gap: 12px; flex-wrap: wrap;">
+                <div style="background: var(--bg-alt); border-radius: 10px; padding: 16px 20px; text-align: center; border: 1px solid var(--border);">
+                  <div style="font-size: 28px; font-weight: 700; color: var(--navy);">340</div>
+                  <div style="font-size: 12px; color: var(--muted);">Licences Recovered</div>
+                </div>
+                <div style="background: var(--bg-alt); border-radius: 10px; padding: 16px 20px; text-align: center; border: 1px solid var(--border);">
+                  <div style="font-size: 28px; font-weight: 700; color: var(--navy);">28%</div>
+                  <div style="font-size: 12px; color: var(--muted);">Annual Cost Reduction</div>
+                </div>
+                <div style="background: var(--bg-alt); border-radius: 10px; padding: 16px 20px; text-align: center; border: 1px solid var(--border);">
+                  <div style="font-size: 28px; font-weight: 700; color: var(--navy);">40%</div>
+                  <div style="font-size: 12px; color: var(--muted);">IT Overhead Reduction</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="margin-top: 32px; padding: 24px; background: var(--bg-alt); border-radius: 10px; border-left: 4px solid var(--red);">
+            <p style="font-size: 15px; color: var(--text); font-style: italic; line-height: 1.7;">"We had no idea we were paying for 340 licences that nobody was using. Rubik Infotech not only found the waste but built us a system that prevents it from happening again. The savings paid for the entire engagement within two months."</p>
+            <p style="font-size: 13px; color: var(--muted); margin-top: 8px; font-style: normal;">— VP Technology, KPO Services Provider, Pune</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- CASE STUDY 3 -->
+    <article class="case-study card-hover" data-animate="fade-up">
+      <div class="case-study__header">
+        <div class="case-study__num" style="background: #102983;">3</div>
+        <div>
+          <div class="case-study__cat">Managed Security Operations</div>
+          <div style="font-size: 13px; color: var(--muted); margin-top: 2px;">Pharmaceuticals &middot; 8 Sites &middot; 3,500 Employees &middot; Mumbai</div>
+        </div>
+      </div>
+      <h2>Managed Security Operations for a Multi-Site Pharmaceutical Group</h2>
+      <p style="font-size: 16px; color: var(--text); line-height: 1.7; margin-bottom: 8px;"><strong>The Challenge:</strong> A pharmaceutical group with 8 manufacturing sites and 3,500 employees had no centralised security operations capability. Security events were handled reactively by IT staff without dedicated tooling, defined processes, or escalation paths. The group was exposed to significant compliance risk under Schedule M requirements.</p>
+      <div class="case-study__metrics">
+        <span class="metric-pill">80% Reduction in Alert Fatigue</span>
+        <span class="metric-pill">8 Sites Integrated</span>
+        <span class="metric-pill">Schedule M Audit Readiness Achieved</span>
+      </div>
+      <button class="case-study__expand">Read Full Case Study &#x2193;</button>
+      <div class="case-study__body">
+        <div class="case-study__body-inner">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px;">
+            <div>
+              <h3 style="font-size: 17px; margin-bottom: 12px; color: var(--navy);">What We Did</h3>
+              <p style="font-size: 15px; line-height: 1.7; margin-bottom: 16px;">Rubik Infotech designed and deployed a centralised SIEM solution integrated with endpoint telemetry, network logs, and cloud activity feeds across all 8 manufacturing sites. The deployment used a hub-and-spoke architecture to aggregate log data at the central security operations function while maintaining site-level visibility.</p>
+              <p style="font-size: 15px; line-height: 1.7;">We implemented structured detection rules calibrated to the pharmaceutical threat profile — prioritising anomalous access to manufacturing systems, data exfiltration attempts, and OT network anomalies. Incident response playbooks were developed for 12 high-priority scenarios and tested with tabletop exercises before go-live.</p>
+            </div>
+            <div>
+              <h3 style="font-size: 17px; margin-bottom: 12px; color: var(--navy);">Outcome</h3>
+              <p style="font-size: 15px; line-height: 1.7; margin-bottom: 16px;">Within 90 days, the group had full visibility across all sites, automated alerting for high-priority events, and a documented incident response capability. Alert fatigue was reduced by 80% through tuned detection rules, eliminating the noise that had previously caused security events to go uninvestigated.</p>
+              <p style="font-size: 15px; line-height: 1.7;">The group achieved audit readiness for Schedule M compliance within the project timeframe, satisfying the documentation and process control requirements that had been identified as gaps in their previous audit cycle. Rubik Infotech continues to provide managed security services to the group under an ongoing MSSP agreement.</p>
+              <div style="margin-top: 20px; display: flex; gap: 12px; flex-wrap: wrap;">
+                <div style="background: var(--bg-alt); border-radius: 10px; padding: 16px 20px; text-align: center; border: 1px solid var(--border);">
+                  <div style="font-size: 28px; font-weight: 700; color: var(--navy);">80%</div>
+                  <div style="font-size: 12px; color: var(--muted);">Alert Fatigue Reduction</div>
+                </div>
+                <div style="background: var(--bg-alt); border-radius: 10px; padding: 16px 20px; text-align: center; border: 1px solid var(--border);">
+                  <div style="font-size: 28px; font-weight: 700; color: var(--navy);">90</div>
+                  <div style="font-size: 12px; color: var(--muted);">Days to Compliance</div>
+                </div>
+                <div style="background: var(--bg-alt); border-radius: 10px; padding: 16px 20px; text-align: center; border: 1px solid var(--border);">
+                  <div style="font-size: 28px; font-weight: 700; color: var(--navy);">8</div>
+                  <div style="font-size: 12px; color: var(--muted);">Sites Integrated</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style="margin-top: 32px; padding: 24px; background: var(--bg-alt); border-radius: 10px; border-left: 4px solid var(--navy);">
+            <p style="font-size: 15px; color: var(--text); font-style: italic; line-height: 1.7;">"Before Rubik Infotech, we had no idea what was happening on our network at any given moment. Within 90 days we had a fully operational SOC capability, documented playbooks, and the confidence to face our Schedule M audit. The improvement has been transformational for our security posture."</p>
+            <p style="font-size: 13px; color: var(--muted); margin-top: 8px; font-style: normal;">— CISO, Pharmaceutical Group, Mumbai</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- STATS BANNER -->
+<section class="stats-banner">
+  <div class="container">
+    <div class="stats-banner__grid">
+      <div class="stat-item">
+        <span class="stat-item__num" data-animate="counter" data-target="850">0+</span>
+        <span class="stat-item__label">Enterprise Deployments</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-item__num" data-animate="counter" data-target="25">0+</span>
+        <span class="stat-item__label">Years of Experience</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-item__num" data-animate="counter" data-target="500">0+</span>
+        <span class="stat-item__label">Satisfied Clients</span>
+      </div>
+      <div class="stat-item">
+        <span class="stat-item__num" data-animate="counter" data-target="13">0+</span>
+        <span class="stat-item__label">Practice Areas</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<section class="cta-banner">
+  <div class="cta-banner__accent">
+    <span style="background: var(--orange);"></span>
+    <span style="background: var(--red);"></span>
+    <span style="background: var(--navy);"></span>
+    <span style="background: var(--green);"></span>
+  </div>
+  <div class="container">
+    <div class="cta-banner__inner" data-animate="scale-in">
+      <span class="eyebrow" style="color: rgba(255,255,255,0.6);">Your Organisation, Next</span>
+      <h2>Ready to See Measurable Security Outcomes?</h2>
+      <p>Talk to Rubik Infotech about your current security challenges. Our team will assess your environment and design a programme built for your specific context.</p>
+      <div class="cta-banner__btns">
+        <a href="support.html#contact" class="btn btn--red">Start a Conversation</a>
+        <a href="solutions.html" class="btn btn--outline-white">View All Solutions</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer" role="contentinfo">
+  <div class="footer__top">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a href="index.html" class="navbar__brand" style="margin-bottom:12px;display:inline-flex;">
+            <svg width="28" height="28" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0"  y="0"  width="16" height="16" rx="3" fill="#F07D00"/>
+              <rect x="19" y="0"  width="16" height="16" rx="3" fill="#E30016"/>
+              <rect x="0"  y="19" width="16" height="16" rx="3" fill="#102983"/>
+              <rect x="19" y="19" width="16" height="16" rx="3" fill="#009136"/>
+            </svg>
+            <span class="navbar__logo-text">Rubik Infotech</span>
+          </a>
+          <p class="footer__brand-tagline">Securing enterprises since 2000.</p>
+          <form class="footer__newsletter">
+            <input type="email" placeholder="Your email address" aria-label="Email for newsletter" />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+        <div class="footer__col">
+          <h4>Solutions</h4>
+          <ul>
+            <li><a href="solutions.html">Cloud Security</a></li>
+            <li><a href="solutions.html">Network Security</a></li>
+            <li><a href="solutions.html">Endpoint Security</a></li>
+            <li><a href="solutions.html">Data Security</a></li>
+            <li><a href="solutions.html">IDAM / MDM</a></li>
+            <li><a href="solutions.html">MSSP</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Licensing</h4>
+          <ul>
+            <li><a href="licensing.html">Microsoft</a></li>
+            <li><a href="licensing.html">Google Workspace</a></li>
+            <li><a href="licensing.html">Adobe CC</a></li>
+            <li><a href="licensing.html">Zoom</a></li>
+            <li><a href="licensing.html">AutoCAD</a></li>
+            <li><a href="licensing.html">TeamViewer</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="insights.html">Insights</a></li>
+            <li><a href="about.html#offices">Offices</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="support.html">Help Center</a></li>
+            <li><a href="support.html#contact">Contact Us</a></li>
+            <li><a href="support.html#faq">FAQ</a></li>
+            <li><a href="support.html">Support Plans</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="footer__partners">
+      <span class="footer__partners-label">Partners:</span>
+      <span class="partner-badge">Fortinet</span>
+      <span class="partner-badge">Palo Alto</span>
+      <span class="partner-badge">CrowdStrike</span>
+      <span class="partner-badge">Sophos</span>
+      <span class="partner-badge">IBM Security</span>
+      <span class="partner-badge">Cisco</span>
+      <span class="partner-badge">Check Point</span>
+    </div>
+    <div class="footer__bottom">
+      <p>&#169; 2025 Rubik Infotech Pvt Ltd. All rights reserved.</p>
+      <div class="footer__social">
+        <a href="#" aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="#" aria-label="Twitter">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/cursor.js"></script>
+<script src="assets/js/animations.js"></script>
+<script src="assets/js/hero-bg.js"></script>
+</body>
+</html>

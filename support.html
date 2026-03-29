@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script>document.documentElement.classList.add("js")</script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support &amp; Contact | Rubik Infotech</title>
+  <meta name="description" content="Get support from Rubik Infotech. Access our help center, support plans, FAQ, and contact form. Reach us at our Ahmedabad headquarters or any of our 6 offices across India." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/animations.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar" role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <div class="navbar__inner">
+      <a href="index.html" class="navbar__brand">
+        <svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0"  y="0"  width="16" height="16" rx="3" fill="#F07D00"/>
+          <rect x="19" y="0"  width="16" height="16" rx="3" fill="#E30016"/>
+          <rect x="0"  y="19" width="16" height="16" rx="3" fill="#102983"/>
+          <rect x="19" y="19" width="16" height="16" rx="3" fill="#009136"/>
+        </svg>
+        <span class="navbar__logo-text">Rubik Infotech</span>
+      </a>
+      <ul class="navbar__nav" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="solutions.html">Business Solutions</a></li>
+        <li><a href="licensing.html">Software Licensing</a></li>
+        <li><a href="insights.html">Insights</a></li>
+        <li><a href="support.html" class="active">Support</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <a href="support.html#contact" class="btn btn--red navbar__cta">Connect Now</a>
+      <button class="navbar__hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+<div class="nav-overlay" role="dialog" aria-label="Mobile menu">
+  <button class="nav-overlay__close" aria-label="Close menu">&#x2715;</button>
+  <a href="index.html">Home</a>
+  <a href="solutions.html">Business Solutions</a>
+  <a href="licensing.html">Software Licensing</a>
+  <a href="insights.html">Insights</a>
+  <a href="support.html">Support</a>
+  <a href="about.html">About</a>
+  <a href="support.html#contact" class="btn btn--red">Connect Now</a>
+</div>
+
+<!-- HERO -->
+<section class="hero hero--inner">
+  <canvas id="hero-bg-canvas" class="hero-canvas" data-anim="radar"></canvas>
+  <div class="container" style="position: relative; z-index: 2; width: 100%;">
+    <div class="hero__inner" style="min-height: 65vh; padding: 80px 0; align-items: flex-start;">
+      <div class="hero__content">
+        <div style="background: rgba(255,255,255,0.18); backdrop-filter: blur(18px) saturate(180%); -webkit-backdrop-filter: blur(18px) saturate(180%); border: 1px solid rgba(255,255,255,0.45); border-bottom-color: rgba(255,255,255,0.2); border-right-color: rgba(255,255,255,0.2); border-radius: 20px; padding: 44px 48px; box-shadow: 0 8px 40px rgba(16,41,131,0.1), inset 0 1px 0 rgba(255,255,255,0.6);">
+        <span class="hero__eyebrow" data-animate="fade-up">Support &amp; Resources</span>
+        <h1 class="hero__h1" data-animate="fade-up">Support &amp; Resources</h1>
+        <p class="hero__sub" data-animate="fade-up">We're here when you need us. Whether you need technical assistance, have a licensing question, or want to discuss a new project — Rubik Infotech's team is available across all six of our offices.</p>
+        <div class="support-hero-cards" data-animate="fade-up">
+          <div class="support-hero-card" style="background: var(--navy);">
+            <div style="margin-bottom: 12px;">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 4L4 9V16C4 22.627 9.373 28.5 16 30C22.627 28.5 28 22.627 28 16V9L16 4Z" stroke="white" stroke-width="2" stroke-linejoin="round"/>
+                <path d="M11 16L14.5 19.5L21 13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3>Support Centre</h3>
+            <p>Technical support for active deployments and managed service clients. Response within 4 business hours for standard issues.</p>
+          </div>
+          <div class="support-hero-card" style="background: var(--red);">
+            <div style="margin-bottom: 12px;">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="4" y="6" width="24" height="20" rx="3" stroke="white" stroke-width="2"/>
+                <path d="M4 11L16 18L28 11" stroke="white" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3>Support Plans</h3>
+            <p>Structured support agreements from standard business hours coverage to 24&#x00D7;7 priority response for critical environments.</p>
+          </div>
+        </div>
+        </div><!-- /glass container -->
+      </div>
+      <div class="hero__visual" data-animate="fade-right">
+        <div style="background: rgba(255,255,255,0.18); backdrop-filter: blur(18px) saturate(180%); -webkit-backdrop-filter: blur(18px) saturate(180%); border-radius: 16px; padding: 40px; border: 1px solid rgba(255,255,255,0.45); border-bottom-color: rgba(255,255,255,0.2); border-right-color: rgba(255,255,255,0.2); max-width: 380px; box-shadow: 0 8px 40px rgba(16,41,131,0.1), inset 0 1px 0 rgba(255,255,255,0.6);">
+          <span class="eyebrow" style="margin-bottom: 20px;">Quick Contact</span>
+          <div class="contact-detail">
+            <div class="contact-detail__icon">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 2C6.239 2 4 4.239 4 7C4 11.5 9 16 9 16C9 16 14 11.5 14 7C14 4.239 11.761 2 9 2Z" stroke="#F07D00" stroke-width="1.5"/>
+                <circle cx="9" cy="7" r="2" stroke="#F07D00" stroke-width="1.5"/>
+              </svg>
+            </div>
+            <div>
+              <div class="contact-detail__label">Address</div>
+              <div class="contact-detail__text">914, 9th Floor, Palak Prime, Iskcon Ambli Road, Ahmedabad 380058</div>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail__icon">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.5 3C3.5 3 2 3.5 2 6C2 11.523 6.477 16 12 16C14.5 16 15 14.5 15 14.5L13 11.5L11 12.5C11 12.5 8.5 10 7.5 8L8.5 6L5.5 4L3.5 3Z" stroke="#F07D00" stroke-width="1.5" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div>
+              <div class="contact-detail__label">Phone</div>
+              <div class="contact-detail__text"><a href="tel:+919909033295" style="color: rgba(255,255,255,0.85); text-decoration: none;">+91 9909033295</a></div>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail__icon">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="2" y="4" width="14" height="10" rx="2" stroke="#F07D00" stroke-width="1.5"/>
+                <path d="M2 6.5L9 11L16 6.5" stroke="#F07D00" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div>
+              <div class="contact-detail__label">Email</div>
+              <div class="contact-detail__text"><a href="mailto:contact@rubikinfotech.com" style="color: rgba(255,255,255,0.85); text-decoration: none;">contact@rubikinfotech.com</a></div>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail__icon">
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9 1L10.854 6.688H16.58L11.863 9.875L13.717 15.562L9 12.375L4.283 15.562L6.137 9.875L1.42 6.688H7.146L9 1Z" stroke="#F07D00" stroke-width="1.5" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div>
+              <div class="contact-detail__label">Offices</div>
+              <div class="contact-detail__text">Ahmedabad &middot; Pune &middot; Mumbai &middot; Baroda &middot; Surat &middot; Udaipur</div>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn--red" style="width: 100%; justify-content: center; margin-top: 8px;">Send Us a Message</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SUPPORT PLANS -->
+<section class="section section--alt">
+  <div class="container">
+    <div class="section-header" data-animate="fade-up">
+      <span class="eyebrow">Support Plans</span>
+      <h2>Choose the Right Level of Coverage</h2>
+      <p>Rubik Infotech offers three structured support tiers to match the criticality of your environment and operational requirements.</p>
+    </div>
+    <div class="support-plans-grid" data-animate="stagger">
+      <div class="support-plan card-hover">
+        <div class="support-plan__name">Standard</div>
+        <div class="support-plan__desc">Business hours support for non-critical deployments and standard infrastructure environments.</div>
+        <ul class="support-plan__features">
+          <li>Business hours support (9am–6pm IST, Mon–Fri)</li>
+          <li>Email and phone support channels</li>
+          <li>8-hour response SLA for standard issues</li>
+          <li>Quarterly security health check</li>
+          <li>Licence renewal reminders</li>
+          <li>Access to documentation portal</li>
+        </ul>
+        <a href="#contact" class="btn btn--outline-navy" style="width: 100%; justify-content: center;">Enquire About Standard</a>
+      </div>
+      <div class="support-plan support-plan--featured card-hover">
+        <span class="support-plan__badge">Most Popular</span>
+        <div class="support-plan__name">Professional</div>
+        <div class="support-plan__desc">Extended coverage for production environments with tighter response requirements and proactive monitoring.</div>
+        <ul class="support-plan__features">
+          <li>Extended hours support (7am–10pm IST, Mon–Sat)</li>
+          <li>Email, phone, and dedicated portal</li>
+          <li>4-hour response SLA for P1 incidents</li>
+          <li>Monthly security review and reporting</li>
+          <li>Proactive vulnerability notifications</li>
+          <li>Named account manager</li>
+          <li>Annual penetration test consultation</li>
+        </ul>
+        <a href="#contact" class="btn btn--navy" style="width: 100%; justify-content: center;">Enquire About Professional</a>
+      </div>
+      <div class="support-plan card-hover">
+        <div class="support-plan__name">Enterprise</div>
+        <div class="support-plan__desc">24&#x00D7;7 coverage for mission-critical environments with guaranteed response times and dedicated resources.</div>
+        <ul class="support-plan__features">
+          <li>24&#x00D7;7 support — all hours, all days</li>
+          <li>All channels including emergency hotline</li>
+          <li>1-hour response SLA for P1 incidents</li>
+          <li>Weekly reporting and executive briefing</li>
+          <li>Dedicated security engineer</li>
+          <li>Quarterly on-site review</li>
+          <li>Incident response retainer</li>
+          <li>MSSP monitoring included</li>
+        </ul>
+        <a href="#contact" class="btn btn--red" style="width: 100%; justify-content: center;">Enquire About Enterprise</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RESOURCES -->
+<section class="section">
+  <div class="container">
+    <div class="section-header" data-animate="fade-up">
+      <span class="eyebrow">Resources</span>
+      <h2>Useful Resources for Our Clients</h2>
+      <p>Access documentation, vendor portals, and support channels for the technologies Rubik Infotech deploys and manages.</p>
+    </div>
+    <div class="resource-cards" data-animate="stagger">
+      <a href="https://www.microsoft.com/en-in/licensing/" target="_blank" rel="noopener" class="resource-card card-hover">
+        <div style="margin-bottom: 16px;">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="4" y="4" width="15" height="15" rx="2" fill="#F07D00"/>
+            <rect x="21" y="4" width="15" height="15" rx="2" fill="#E30016"/>
+            <rect x="4" y="21" width="15" height="15" rx="2" fill="#F07D00"/>
+            <rect x="21" y="21" width="15" height="15" rx="2" fill="#009136"/>
+          </svg>
+        </div>
+        <h3>Microsoft Licensing Portal</h3>
+        <p>Access the Microsoft Licensing Resource and Planning portal for volume licensing, product key management, and subscription management across Microsoft 365, Azure, and on-premise products.</p>
+        <div style="margin-top: 16px; font-size: 13px; font-weight: 600; color: var(--navy);">Visit Microsoft Licensing &#x2192;</div>
+      </a>
+      <a href="https://support.google.com/a/" target="_blank" rel="noopener" class="resource-card card-hover">
+        <div style="margin-bottom: 16px;">
+          <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="20" cy="20" r="14" stroke="#F07D00" stroke-width="2.5"/>
+            <path d="M6 20H34" stroke="#F07D00" stroke-width="2" stroke-linecap="round"/>
+            <ellipse cx="20" cy="20" rx="6" ry="14" stroke="#F07D00" stroke-width="2"/>
+          </svg>
+        </div>
+        <h3>Google Workspace Admin Support</h3>
+        <p>Access Google Workspace admin console documentation, setup guides, migration resources, and Google support channels for administrators managing Workspace environments.</p>
+        <div style="margin-top: 16px; font-size: 13px; font-weight: 600; color: var(--navy);">Visit Google Workspace Support &#x2192;</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section section--alt" id="faq">
+  <div class="container">
+    <div class="section-header" data-animate="fade-up">
+      <span class="eyebrow">FAQ</span>
+      <h2>Frequently Asked Questions</h2>
+      <p>Answers to the questions we receive most often about our services, support, and approach.</p>
+    </div>
+    <div style="max-width: 800px; margin: 0 auto;" data-animate="fade-up">
+
+      <details class="faq-item">
+        <summary>
+          What industries does Rubik Infotech serve?
+          <span class="faq-icon"></span>
+        </summary>
+        <p>Rubik Infotech works with mid-market and enterprise organisations across manufacturing, pharmaceuticals, BFSI (banking, financial services and insurance), KPO/BPO services, engineering, and professional services. Our security frameworks are adapted to the specific compliance and operational requirements of each sector — including Schedule M for pharma, RBI guidelines for financial services, and ISO 27001 across all industries.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>
+          How does Rubik Infotech approach a new security engagement?
+          <span class="faq-icon"></span>
+        </summary>
+        <p>Every engagement begins with an architecture and risk assessment phase. We spend time understanding your environment — your existing technology stack, your threat exposure, your regulatory obligations, and your operational constraints. We do not propose solutions before we understand the problem. This approach ensures that our recommendations are proportionate, practical, and designed for your specific context rather than a generic template.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>
+          Do you work with organisations that already have existing security tools in place?
+          <span class="faq-icon"></span>
+        </summary>
+        <p>Yes — the majority of our engagements involve organisations that already have security tools deployed. Our initial assessment typically includes evaluating what you have, identifying gaps or misconfiguration, and recommending whether to optimise existing tools or supplement them. We are vendor-agnostic and will work with your existing investments where possible rather than recommending a complete replacement.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>
+          What is the typical timeframe for a security architecture review?
+          <span class="faq-icon"></span>
+        </summary>
+        <p>A standard security architecture review typically takes 2–4 weeks, depending on the size and complexity of your environment. This covers a structured assessment of your network, cloud, endpoint, and identity controls against a defined framework, followed by a written report with prioritised recommendations and a proposed roadmap. Larger or more complex environments — such as multi-site operations or OT-integrated networks — may require longer assessment periods.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>
+          Can Rubik Infotech manage our software licences on an ongoing basis?
+          <span class="faq-icon"></span>
+        </summary>
+        <p>Yes — our licensing practice provides full lifecycle management. This includes initial procurement and activation, ongoing utilisation monitoring, renewal management with advance notice, compliance reporting, and optimisation recommendations. We provide monthly utilisation reports and flag upcoming renewals at 90, 60, and 30 days in advance. Our licence management service covers all major platforms including Microsoft, Google Workspace, Adobe, Zoom, AutoCAD, and others.</p>
+      </details>
+
+      <details class="faq-item">
+        <summary>
+          What support is available for emergency security incidents?
+          <span class="faq-icon"></span>
+        </summary>
+        <p>Organisations on our Professional and Enterprise support plans have access to incident response support. Our Enterprise plan includes a 24&#x00D7;7 emergency hotline and a 1-hour response SLA for critical incidents. For organisations not on a support plan, we offer ad-hoc incident response services — contact us directly at +91 9909033295 or contact@rubikinfotech.com. We strongly recommend having an incident response retainer in place before an incident occurs, rather than engaging for the first time under pressure.</p>
+      </details>
+
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <div data-animate="fade-left">
+        <span class="eyebrow">Contact Us</span>
+        <h2>Start a Conversation</h2>
+        <p style="margin-top: 12px; margin-bottom: 32px; font-size: 16px;">Whether you have a specific security challenge, a licensing requirement, or simply want to understand how Rubik Infotech can help your organisation — we'd be glad to talk.</p>
+        <form class="contact-form">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+            <div class="form-group">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" name="first-name" placeholder="Raj" required />
+            </div>
+            <div class="form-group">
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" name="last-name" placeholder="Mehta" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Work Email</label>
+            <input type="email" id="email" name="email" placeholder="raj.mehta@company.com" required />
+          </div>
+          <div class="form-group">
+            <label for="company">Organisation</label>
+            <input type="text" id="company" name="company" placeholder="Your company name" />
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" />
+          </div>
+          <div class="form-group">
+            <label for="topic">Topic</label>
+            <select id="topic" name="topic">
+              <option value="">Select a topic...</option>
+              <option value="security-assessment">Security Architecture Assessment</option>
+              <option value="managed-security">Managed Security Services (MSSP)</option>
+              <option value="cloud-security">Cloud Security</option>
+              <option value="network-security">Network Security</option>
+              <option value="endpoint-security">Endpoint Security</option>
+              <option value="compliance">Compliance &amp; Governance</option>
+              <option value="licensing-microsoft">Software Licensing — Microsoft</option>
+              <option value="licensing-google">Software Licensing — Google Workspace</option>
+              <option value="licensing-other">Software Licensing — Other</option>
+              <option value="support">Technical Support</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell us about your environment, current challenges, or what you're looking to achieve..." rows="5"></textarea>
+          </div>
+          <button type="submit" class="btn btn--red" style="width: 100%; justify-content: center;">Send Message</button>
+        </form>
+      </div>
+      <div data-animate="fade-right">
+        <span class="eyebrow">Get In Touch</span>
+        <h2>Our Contact Details</h2>
+        <p style="margin-top: 12px; margin-bottom: 32px; font-size: 15px;">Reach us at our Ahmedabad headquarters or contact your nearest regional office. Our team typically responds to enquiries within one business day.</p>
+
+        <div class="contact-detail">
+          <div class="contact-detail__icon">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9 2C6.239 2 4 4.239 4 7C4 11.5 9 16 9 16C9 16 14 11.5 14 7C14 4.239 11.761 2 9 2Z" stroke="#F07D00" stroke-width="1.5"/>
+              <circle cx="9" cy="7" r="2" stroke="#F07D00" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <div>
+            <div class="contact-detail__label">Headquarters</div>
+            <div class="contact-detail__text">914, 9th Floor, Palak Prime,<br>Iskcon Ambli Road,<br>Ahmedabad 380058, Gujarat</div>
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <div class="contact-detail__icon">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3.5 3C3.5 3 2 3.5 2 6C2 11.523 6.477 16 12 16C14.5 16 15 14.5 15 14.5L13 11.5L11 12.5C11 12.5 8.5 10 7.5 8L8.5 6L5.5 4L3.5 3Z" stroke="#F07D00" stroke-width="1.5" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div>
+            <div class="contact-detail__label">Phone</div>
+            <div class="contact-detail__text"><a href="tel:+919909033295" style="color: var(--navy); text-decoration: none; font-weight: 600;">+91 9909033295</a></div>
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <div class="contact-detail__icon">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="2" y="4" width="14" height="10" rx="2" stroke="#F07D00" stroke-width="1.5"/>
+              <path d="M2 6.5L9 11L16 6.5" stroke="#F07D00" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <div>
+            <div class="contact-detail__label">Email</div>
+            <div class="contact-detail__text"><a href="mailto:contact@rubikinfotech.com" style="color: var(--navy); text-decoration: none; font-weight: 600;">contact@rubikinfotech.com</a></div>
+          </div>
+        </div>
+
+        <div class="contact-detail">
+          <div class="contact-detail__icon">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="9" cy="9" r="7" stroke="#F07D00" stroke-width="1.5"/>
+              <path d="M9 5V9L12 12" stroke="#F07D00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <div>
+            <div class="contact-detail__label">Business Hours</div>
+            <div class="contact-detail__text">Monday to Friday, 9:00 AM – 6:00 PM IST<br>Urgent matters: 24&#x00D7;7 for Enterprise clients</div>
+          </div>
+        </div>
+
+        <div style="margin-top: 32px; padding: 24px; background: var(--bg-alt); border-radius: 12px; border: 1px solid var(--border);">
+          <h3 style="font-size: 16px; margin-bottom: 12px; color: var(--navy);">Regional Offices</h3>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+            <div style="display: flex; align-items: center; gap: 8px;">
+              <div style="width: 8px; height: 8px; border-radius: 50%; background: var(--orange); flex-shrink: 0;"></div>
+              <span style="font-size: 14px; color: var(--text); font-weight: 500;">Ahmedabad (HQ)</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 8px;">
+              <div style="width: 8px; height: 8px; border-radius: 50%; background: var(--red); flex-shrink: 0;"></div>
+              <span style="font-size: 14px; color: var(--text); font-weight: 500;">Pune</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 8px;">
+              <div style="width: 8px; height: 8px; border-radius: 50%; background: var(--navy); flex-shrink: 0;"></div>
+              <span style="font-size: 14px; color: var(--text); font-weight: 500;">Mumbai</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 8px;">
+              <div style="width: 8px; height: 8px; border-radius: 50%; background: var(--green); flex-shrink: 0;"></div>
+              <span style="font-size: 14px; color: var(--text); font-weight: 500;">Baroda</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 8px;">
+              <div style="width: 8px; height: 8px; border-radius: 50%; background: var(--orange); flex-shrink: 0;"></div>
+              <span style="font-size: 14px; color: var(--text); font-weight: 500;">Surat</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: 8px;">
+              <div style="width: 8px; height: 8px; border-radius: 50%; background: var(--red); flex-shrink: 0;"></div>
+              <span style="font-size: 14px; color: var(--text); font-weight: 500;">Udaipur</span>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top: 24px; padding: 20px; background: rgba(16,41,131,0.04); border-radius: 10px; border: 1px solid var(--border);">
+          <div style="display: flex; gap: 12px; align-items: flex-start;">
+            <div style="flex-shrink: 0; margin-top: 2px;">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="10" cy="10" r="9" stroke="#F07D00" stroke-width="1.5"/>
+                <path d="M10 6V10" stroke="#F07D00" stroke-width="1.5" stroke-linecap="round"/>
+                <circle cx="10" cy="13.5" r="0.75" fill="#F07D00"/>
+              </svg>
+            </div>
+            <p style="font-size: 14px; color: var(--muted); line-height: 1.6;">For existing clients with active support agreements, please use your dedicated support channel or contact your named account manager directly for faster response times.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<section class="cta-banner">
+  <div class="cta-banner__accent">
+    <span style="background: var(--orange);"></span>
+    <span style="background: var(--red);"></span>
+    <span style="background: var(--navy);"></span>
+    <span style="background: var(--green);"></span>
+  </div>
+  <div class="container">
+    <div class="cta-banner__inner" data-animate="scale-in">
+      <span class="eyebrow" style="color: rgba(255,255,255,0.6);">Not Sure Where to Start?</span>
+      <h2>Let's Begin With a Conversation</h2>
+      <p>There's no obligation. A brief call with our team can help clarify your options and identify the most valuable first step for your organisation's security posture.</p>
+      <div class="cta-banner__btns">
+        <a href="tel:+919909033295" class="btn btn--red">Call +91 9909033295</a>
+        <a href="solutions.html" class="btn btn--outline-white">View All Solutions</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer" role="contentinfo">
+  <div class="footer__top">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a href="index.html" class="navbar__brand" style="margin-bottom:12px;display:inline-flex;">
+            <svg width="28" height="28" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0"  y="0"  width="16" height="16" rx="3" fill="#F07D00"/>
+              <rect x="19" y="0"  width="16" height="16" rx="3" fill="#E30016"/>
+              <rect x="0"  y="19" width="16" height="16" rx="3" fill="#102983"/>
+              <rect x="19" y="19" width="16" height="16" rx="3" fill="#009136"/>
+            </svg>
+            <span class="navbar__logo-text">Rubik Infotech</span>
+          </a>
+          <p class="footer__brand-tagline">Securing enterprises since 2000.</p>
+          <form class="footer__newsletter">
+            <input type="email" placeholder="Your email address" aria-label="Email for newsletter" />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+        <div class="footer__col">
+          <h4>Solutions</h4>
+          <ul>
+            <li><a href="solutions.html">Cloud Security</a></li>
+            <li><a href="solutions.html">Network Security</a></li>
+            <li><a href="solutions.html">Endpoint Security</a></li>
+            <li><a href="solutions.html">Data Security</a></li>
+            <li><a href="solutions.html">IDAM / MDM</a></li>
+            <li><a href="solutions.html">MSSP</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Licensing</h4>
+          <ul>
+            <li><a href="licensing.html">Microsoft</a></li>
+            <li><a href="licensing.html">Google Workspace</a></li>
+            <li><a href="licensing.html">Adobe CC</a></li>
+            <li><a href="licensing.html">Zoom</a></li>
+            <li><a href="licensing.html">AutoCAD</a></li>
+            <li><a href="licensing.html">TeamViewer</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="insights.html">Insights</a></li>
+            <li><a href="about.html#offices">Offices</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="support.html">Help Center</a></li>
+            <li><a href="support.html#contact">Contact Us</a></li>
+            <li><a href="support.html#faq">FAQ</a></li>
+            <li><a href="support.html">Support Plans</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="footer__partners">
+      <span class="footer__partners-label">Partners:</span>
+      <span class="partner-badge">Fortinet</span>
+      <span class="partner-badge">Palo Alto</span>
+      <span class="partner-badge">CrowdStrike</span>
+      <span class="partner-badge">Sophos</span>
+      <span class="partner-badge">IBM Security</span>
+      <span class="partner-badge">Cisco</span>
+      <span class="partner-badge">Check Point</span>
+    </div>
+    <div class="footer__bottom">
+      <p>&#169; 2025 Rubik Infotech Pvt Ltd. All rights reserved.</p>
+      <div class="footer__social">
+        <a href="#" aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+        <a href="#" aria-label="Twitter">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/cursor.js"></script>
+<script src="assets/js/animations.js"></script>
+<script src="assets/js/hero-bg.js"></script>
+</body>
+</html>
